@@ -19,10 +19,9 @@ courses:
 - {name: 'CSE546: Machine Learning'}
 
 social:
-- {icon: 'github', link: 'https://github.com/LeNPaul'}
-- {icon: 'twitter', link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
+- {icon: 'github', link: 'https://github.com/andrewjjeon'}
+- {icon: 'instagram', link: 'https://www.instagram.com/andrewjjeon/'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/andrew-jeon-58b294107/'}
 
 contacts:
 - {name: 'Andrew Jeon', institution: 'University of Washington', institution_address: '1410 NE Campus Pkwy, Seattle, WA 98195', phone: '(971) 777-1218', personal_email: 'andrewjjeon@gmail.com', email: ajjeon2@uw.edu, image: 'assets/img/contact.png'}
