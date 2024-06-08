@@ -25,4 +25,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
-- {name: 'Dr. Academia', title: 'Professor', department: 'Physics & Astronomy', institution: 'Some University', institution_address: '1 Main Street, Canada', phone: '(000) 000-0000', email: 'hello@university.edu', office: 'Science Building 505', image: 'assets/img/contact.jpg'}
+- {name: 'Andrew Jeon', institution: 'University of Washington', institution_address: '1410 NE Campus Pkwy, Seattle, WA 98195', phone: '(971) 777-1218', email: 'andrewjjeon@gmail.com', email: ajjeon2@uw.edu, image: 'assets/img/contact.png'}
