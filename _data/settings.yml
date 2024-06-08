@@ -24,5 +24,5 @@ social:
 - {icon: 'instagram', link: 'https://instagram.com/paululele'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
-contacts:
+contact:
 - {name: 'Andrew Jeon', institution: 'University of Washington', institution_address: '1410 NE Campus Pkwy, Seattle, WA 98195', phone: '(971) 777-1218', personal email: 'andrewjjeon@gmail.com', email: ajjeon2@uw.edu, image: 'assets/img/contact.png'}
