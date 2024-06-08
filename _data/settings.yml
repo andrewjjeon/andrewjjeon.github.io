@@ -1,4 +1,4 @@
-nmenu:
+menu:
 - {name: 'projects', url: '/projects'}
 - {name: 'research', url: '/research'}
 - {name: 'courses', url: '/courses'}
