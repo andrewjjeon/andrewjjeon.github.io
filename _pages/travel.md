@@ -14,7 +14,7 @@ Gasworks
 
   Seattle (+ metro area) is a gorgeous, melancholic, and productive city. There are so many amazing hikes, lakes, snowsports, watersports, outdoor activities etc within a 1-2 hour radius of Seattle. The cityscape at night is also beautiful. The summers are short, the rest of the year is gray with a constant drizzle. Seattle is a highly productive city, most obviously in tech with titans Microsoft and Amazon being headquartered in it. There is also strong presence in Science and research through the University of Washington and related research institutes. This attracts many engineers, scientists, and career-focused individuals. This abundance of career-focused individuals combined with the Seattle Freeze could be why the city punches above its weight economically, but reports [high levels of depression](https://www.seattletimes.com/seattle-news/data/seattle-still-the-nations-saddest-large-metro-area-survey-shows/). 
 
-Portland &#127482;&#127480;
+Portland 🇺🇸
 ======
 ![Cannon Beach](/images/cannon.jpg)
 Cannon Beach
@@ -38,7 +38,7 @@ Portland (+ metro area) is a funky, sporty, and beautiful city. With Mount Hood 
 
 
 
-Vancouver &#127464;&#127462;
+Vancouver 🇨🇦
 ======
 ![Cypress Lookout](/images/vancouver.jpg)
 Cypress Lookout
