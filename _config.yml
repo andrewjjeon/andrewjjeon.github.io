@@ -21,7 +21,7 @@ repository               : "andrewjjeon/andrewjjeon.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "17.jpg"
+  avatar           : "17crop.jpg"
   name             : "Andrew Jeon"
   pronouns         : # example: "she/her"  
   bio              : "MS Student at UW studying Machine Learning, Computer Vision, and AI-Robotics"
