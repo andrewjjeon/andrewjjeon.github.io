@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Andrew, a Masters student at the University of Washington studying Machine Learning, Computer Vision, and Robotics. I'm interested in using Representation Learning and Computer Vision (multimodal and low-dimensional representations) to enable 3D reconstruction and understanding for Robotics and Autonomous Systems.
+Hello! I'm Andrew, a Masters student at the University of Washington studying Machine Learning, Computer Vision, and Robotics. I use powerful scene representations to further robotic scene understanding and 3D reconstruction.
 
-Other Interests that I haven’t worked on but want to in the future
-- Multi-agent systems (multi-agent robotic systems that explore, cooperate, etc.)
-- AI for strategic games and situations (AlphaStar, CICERO, LLMs Play StarCraft II, etc.)
+Key works that inspired me
+- CLIP
+- VLMaps
+- FoundationPose
+
 
 Background
 ======

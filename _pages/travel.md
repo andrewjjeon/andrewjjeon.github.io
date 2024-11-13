@@ -31,7 +31,7 @@ View from Mt. Hood
 ![Multnomah Falls](/images/multnomah.jpg)
 Multnomah Falls
 
-![Tamanawas Falls](/images/tamanawas.jpg)
+![Portland Waterfront](/images/portlandriver.jpg)
 Tamanawas Falls
 
 Portland (+ metro area) is a funky, sporty, and beautiful city. With Mount Hood towering above the city from many angles, you often get beautiful pink sky sunsets with Mount Hood fading away into the night sky. This area also is right next to the Columbia River Gorge where you find many beautiful waterfalls. Cannon Beach and other misty, pretty Pacific Northwest beaches are also 1-2 hour drives away. There is also whale watching, sea lion caves, coastal towns, waterfalls, hikes, snowsports, sand dunes, and more all within a 1-2 hour radius of Portland. Portland attracts many artists, musicians, and other creatives. It also attracts many athletes and sportswear professionals as Nike is headquartered there along with its many competitors. 
