@@ -18,3 +18,8 @@ Key works that inspired me
 Background
 ======
 I received my Bachelor of Science from [UIUC ECE](https://ece.illinois.edu/). After my undergraduate education, I worked in the automation, and semiconductor industries for a couple years before returning to graduate school to study and research machine learning and robotics.
+
+
+Please find my CV here:
+
+[**Download My CV (PDF)**](/assets/24cv.pdf)
