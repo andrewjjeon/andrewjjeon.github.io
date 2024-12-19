@@ -6,7 +6,7 @@
 
 main:
   - title: "Projects"
-    url: /publications/  
+    url: /projects/  
 
   - title: "Teaching"
     url: /teaching/    
@@ -15,4 +15,4 @@ main:
     url: /travel/
     
   - title: "CV"
-    url: 24cv.pdf
+    url: /24cv.pdf
