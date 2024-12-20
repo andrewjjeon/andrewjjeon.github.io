@@ -49,40 +49,26 @@ Portland
   </div>
 </div>
 
-<!--
-![Cannon Beach](/images/cannon.jpg){:width="600px"}
-Cannon Beach
-
-![Ecola Point](/images/ecola.jpg){:width="600px"}
-Ecola Point
-
-![Crown Point](/images/crown.jpg){:width="600px"}
-Columbia River Gorge
-
-![View from Mt. Hood](/images/meadows.jpg){:width="600px"}
-View from Mt. Hood
-
-![Multnomah Falls](/images/multnomah.jpg){:width="600px"}
-Multnomah Falls
-
-![Portland Waterfront](/images/portlandriver.jpg){:width="600px"}
-Portland Waterfront
--->
 
 Portland (+ metro area) is a funky, sporty, and beautiful city. With Mount Hood towering above the city from many angles, you often get beautiful pink sky sunsets with Mount Hood fading away into the night sky. This area also is right next to the Columbia River Gorge where you find many beautiful waterfalls. Cannon Beach and other misty, pretty Pacific Northwest beaches are also 1-2 hour drives away. There is also whale watching, sea lion caves, coastal towns, waterfalls, hikes, snowsports, sand dunes, and more all within a 1-2 hour radius of Portland. Portland attracts many artists, musicians, and other creatives. It also attracts many athletes and sportswear professionals as Nike is headquartered there along with its many competitors. 
 
 
 Vancouver
 ======
-![Cypress Lookout](/images/vancouver.jpg){:width="600px"}
-Cypress Lookout
+<div style="text-align: center;">
+  <img src="/images/vancouver.jpg" alt="Cypress Lookout" style="width: 100%; max-width: 400px;">
+  <p>Cypress Lookout</p>
+</div>
 
 Vancouver (+ metro area) is gorgeous, clean, and international. Whistler Mountain is a 1.5 hour drive north and Stanley Park is beautiful. Similarly to Portland and Seattle, there are various hikes, beaches, and snowsports all 1-2 hours away. Vancouver's main industry is commerical real estate and it has an influx of foreign investment, especially from Asia. This combined with geographic limitations (bordered by mountains to the north, ocean to the west, and the USA to the south) limits expansion which drives up the value of the available land and properties. This leads to extremely high housing prices, which is highly controversial among locals. Proof of this can be seen through the skylines of Vancouver, Burnaby, etc. which are almost exclusively high-rise apartments. 
 
 
 Urbana-Champaign
 ======
-![Grainger](/images/grainger.jpg){:width="600px"}
-The walk home after a hard days work at Grainger Library
+<div style="text-align: center;">
+  <img src="/images/grainger.jpg" alt="The walk home after a hard days work at Grainger" style="width: 100%; max-width: 400px;">
+  <p>The walk home after a hard days work at Grainger</p>
+</div>
+
 
 Urbana-Champaign is a classic midwest college town, much of the towns populace and activities revolve around the University of Illinois (UIUC). UIUC draws a significant amount of international students as well as engineering/technology students due to its strrong schools in those areas. UIUC is also a top party school, this could be because there's relatively little to do compared to large metropolitan areas.
