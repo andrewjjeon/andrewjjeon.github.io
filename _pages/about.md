@@ -22,4 +22,4 @@ I received my Bachelor of Science from [UIUC ECE](https://ece.illinois.edu/). Af
 
 Please find my CV here:
 
-[**Download My CV (PDF)**](/assets/24cv.pdf)
+[**Download 2024cv (pdf)**](/assets/24cv.pdf)
