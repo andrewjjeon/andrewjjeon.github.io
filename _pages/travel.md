@@ -48,5 +48,7 @@ Vancouver (+ metro area) is gorgeous, clean, and international. Whistler Mountai
 
 Urbana-Champaign
 ======
+![Grainger](/images/grainger.jpg)
+The walk home after a hard days work at Grainger Library
 
 Urbana-Champaign is a classic midwest college town, much of the towns populace and activities revolve around the University of Illinois (UIUC). UIUC draws a significant amount of international students as well as engineering/technology students due to its strrong schools in those areas. UIUC is also a top party school, this could be because there's relatively little to do compared to large metropolitan areas.
