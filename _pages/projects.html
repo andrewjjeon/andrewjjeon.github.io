@@ -9,7 +9,21 @@ author_profile: true
 
 
 <h2>Novel Object Grasping with Foundation Model</h2>
+
 <p>FoundationPose is a Unified foundation model for 6D pose estimation and tracking, 
-it has both CAD model-based configurations and model-free configurations.
-For more details, see <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose paper</a>
+  it has both CAD model-based configurations and model-free configurations.
+  For more details, see <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose paper</a>
 </p>
+
+<p>
+  In order to perform novel object grasping with this model, we propose to run 2x instances of FoundationPose. 
+  1x on the robot hand or configuration. 1x on the object to grasp. This should give you the respective pose matrix which 
+  contains the 3x1 translation(tx, ty, tz) and 3x3 rotation (r11, r12, r13, r21, r22, r23, ...). At this point,
+  you should have the <b>robot-to-camera</b> pose matrix and the <b>object-to-camera</b> pose matrix. If you have these
+  two matrices, you can now calculate the robot-to-object pose matrix which in turn would enable robotic grasping.
+  The more accurate the pose matrix, the more precise the object grasping with your robot hand or configuration. The
+  long-term goal is to make this system robust enough to work with whatever robot model and configuration you have i.e. 
+  franka robot hand, franka robot hand + link0, PP100 hand + link0 + link1, and so forth. Our rough approach is illustrated below:
+</p>
+
+<img src="/images/fp_block.JPG" alt="Block Diagram" style="max-width: 100%; height: auto;">
