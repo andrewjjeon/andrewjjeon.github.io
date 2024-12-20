@@ -60,7 +60,7 @@ Vancouver
   <p>Cypress Lookout</p>
 </div>
 
-Vancouver (+ metro area) is gorgeous, clean, and international. Whistler Mountain is a 1.5 hour drive north and Stanley Park is beautiful. Similarly to Portland and Seattle, there are various hikes, beaches, and snowsports all 1-2 hours away. Vancouver's main industry is commerical real estate and it has an influx of foreign investment, especially from Asia. This combined with geographic limitations (bordered by mountains to the north, ocean to the west, and the USA to the south) limits expansion which drives up the value of the available land and properties. This leads to extremely high housing prices, which is highly controversial among locals. Proof of this can be seen through the skylines of Vancouver, Burnaby, etc. which are almost exclusively high-rise apartments. 
+Vancouver (+ metro area) is gorgeous, clean, and international. Whistler Mountain is a 1.5 hour drive north and Stanley Park is beautiful. Similarly to Portland and Seattle, there are various hikes, beaches, and snowsports all 1-2 hours away. Vancouver's main industry is commercial real estate and it has an influx of foreign investment, especially from Asia. This combined with geographic limitations (bordered by mountains to the north, ocean to the west, and the USA to the south) limits expansion which drives up the value of the available land and properties. This leads to extremely high housing prices, which is highly controversial among locals. Proof of this can be seen through the skylines of Vancouver, Burnaby, etc. which are almost exclusively high-rise apartments. 
 
 
 Urbana-Champaign
@@ -71,4 +71,4 @@ Urbana-Champaign
 </div>
 
 
-Urbana-Champaign is a classic midwest college town, much of the towns populace and activities revolve around the University of Illinois (UIUC). UIUC draws a significant amount of international students as well as engineering/technology students due to its strrong schools in those areas. UIUC is also a top party school, this could be because there's relatively little to do compared to large metropolitan areas.
+Urbana-Champaign is a classic midwest college town, much of the towns populace and activities revolve around the University of Illinois (UIUC). UIUC draws a significant amount of international students as well as engineering/technology students due to its strong schools in those areas. UIUC is also a top party school, this could be because there's relatively little to do compared to large metropolitan areas.
