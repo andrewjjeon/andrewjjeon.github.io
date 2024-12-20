@@ -10,10 +10,10 @@ redirect_from:
 Seattle
 ======
 
-<figure style="text-align: center;">
-  <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 500px;">
-  <figcaption>Gasworks</figcaption>
-</figure>
+<div style="text-align: center;">
+  <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 400px;">
+  <p>Gasworks</p>
+</div>
 
 
   Seattle (+ metro area) is a gorgeous, melancholic, and productive city. There are so many amazing hikes, lakes, snowsports, watersports, outdoor activities etc within a 1-2 hour radius of Seattle. The cityscape at night is also beautiful. The summers are short, the rest of the year is gray with a constant drizzle. Seattle is a highly productive city, most obviously in tech with titans Microsoft and Amazon being headquartered in it. There is also strong presence in Science and research through the University of Washington and related research institutes. This attracts many engineers, scientists, and career-focused individuals. This abundance of career-focused individuals combined with the Seattle Freeze could be why the city punches above its weight economically, but reports [high levels of depression](https://www.seattletimes.com/seattle-news/data/seattle-still-the-nations-saddest-large-metro-area-survey-shows/). 
@@ -22,29 +22,29 @@ Seattle
 Portland
 ======
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(3, 400px); gap: 20px;">
   <div style="text-align: center;">
-    <img src="/images/cannon.jpg" alt="Cannon Beach" style="width: 100%; max-width: 500px;">
+    <img src="/images/cannon.jpg" alt="Cannon Beach" style="width: 100%; max-width: 400px;">
     <p>Cannon Beach</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/ecola.jpg" alt="Ecola Point" style="width: 100%; max-width: 500px;">
+    <img src="/images/ecola.jpg" alt="Ecola Point" style="width: 100%; max-width: 400px;">
     <p>Ecola Point</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/crown.jpg" alt="Columbia River Gorge" style="width: 100%; max-width: 500px;">
+    <img src="/images/crown.jpg" alt="Columbia River Gorge" style="width: 100%; max-width: 400px;">
     <p>Columbia River Gorge</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/meadows.jpg" alt="View from Mt. Hood" style="width: 100%; max-width: 500px;">
+    <img src="/images/meadows.jpg" alt="View from Mt. Hood" style="width: 100%; max-width: 400px;">
     <p>View from Mt. Hood</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/multnomah.jpg" alt="Multnomah Falls" style="width: 100%; max-width: 500px;">
+    <img src="/images/multnomah.jpg" alt="Multnomah Falls" style="width: 100%; max-width: 400px;">
     <p>Multnomah Falls</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/portlandriver.jpg" alt="Portland Waterfront" style="width: 100%; max-width: 500px;">
+    <img src="/images/portlandriver.jpg" alt="Portland Waterfront" style="width: 100%; max-width: 400px;">
     <p>Portland Waterfront</p>
   </div>
 </div>
