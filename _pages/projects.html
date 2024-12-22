@@ -96,3 +96,51 @@ author_profile: true
   </div>
   <p>3D segmentation demonstration of Table, comparison with real world point cloud</p>
 </div>
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+<h2>Autoregressive Low Rank Model Regularization and Tuning</h2>
+
+
+
+<p>
+  There is a strong need for techniques that minimize the amount of data needed to learn neural population dynamics 
+  due to experimental time and resource constraints. "Active learning of neural population dynamics using two-photon 
+  holographic optogenetics" is a NeurIPS 2024 paper that attempts to determine the most effective photostimulation 
+  patterns for identifying neural population dynamics. The goal is to select the neurons that have the most informative 
+  neural responses to inform a dynamical model of the neural population activity. 
+</p>
+<p>
+  The project’s active learning technique takes advantage of the low-rank structure of the neural population dynamics 
+  to determine the most informative photostimulation patterns. It uses SVD to create low rank autoregressive models 
+  that predict neural activity. I conducted various regularization, tuning experiments, closed-form solution implementations, 
+  and code refactors on these models. My most significant result was that L2 regularization was more beneficial in full rank 
+  models compared to low rank.
+
+  Further details can be found in the paper <a href="https://arxiv.org/abs/2412.02529" 
+  target="_blank">Active learning of neural population dynamics</a>
+</p>
+
+
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/images/fullrank.png" alt="Full Rank 502 neurons model" style="max-width: 49%; height: auto;">
+    <img src="/images/lowrank.png" alt="Low Rank 35 neurons model" style="max-width: 49%; height: auto;">
+  </div>
+  <p>Full Rank Stimulation Responses vs Low Rank Stimulation Responses comparison displays the low rank structure of the neural popualation dynamics</p>
+</div>
+
+
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/images/lowrank.png" alt="Low Rank 35 neurons model" style="max-width: 49%; height: auto;">
+    <img src="/images/lowrankl2.png" alt="Low Rank 35 neurons model w/ L2 Regularization" style="max-width: 49%; height: auto;">
+  </div>
+  <p>Low Rank Stimulation Responses vs Low Rank Stimulation Responses comparison shows the effects of L2 regularization clearly</p>
+</div>
