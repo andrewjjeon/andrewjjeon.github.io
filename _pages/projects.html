@@ -220,10 +220,65 @@ author_profile: true
 
   
   <div style="text-align: center;">
-    <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="/images/yolov8.jpg" alt="YOLOv8s (small) validation set detections" style="max-width: 49%; height: auto;">
-      <img src="/images/ffmmmti_table.png" alt="YOLOv8 versions validation performance" style="max-width: 49%; height: auto;">
-    </div>
-    <p>System performance</p>
+    <img src="/images/yolov8.jpg" alt="YOLOv8s (small) validation set detections" style="max-width: 100%; height: auto;">
+    <p>Validation set performance</p>
   </div>
   
+
+  <h3>YOLOv8 Model Performance on Validation Set</h3>
+
+  <table style="border-collapse: collapse; width: 100%; text-align: center;">
+    <thead>
+      <tr>
+        <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">Model</th>
+        <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">Dataset</th>
+        <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">Hyperparameters</th>
+        <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">mAP50</th>
+        <th style="border: 1px solid black; padding: 8px; background-color: #f2f2f2;">mAP50-95</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">YOLOv8n</td>
+        <td style="border: 1px solid black; padding: 8px;">Friend_or_foe_class_consolidation_object/10</td>
+        <td style="border: 1px solid black; padding: 8px;">Ideal (50 epoch)</td>
+        <td style="border: 1px solid black; padding: 8px;">0.711</td>
+        <td style="border: 1px solid black; padding: 8px;">0.536</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">YOLOv8s</td>
+        <td style="border: 1px solid black; padding: 8px;">Friend_or_foe_class_consolidation_object/7</td>
+        <td style="border: 1px solid black; padding: 8px;">Ideal (50 epoch)</td>
+        <td style="border: 1px solid black; padding: 8px;">0.736</td>
+        <td style="border: 1px solid black; padding: 8px;">0.581</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">YOLOv8m</td>
+        <td style="border: 1px solid black; padding: 8px;">Friend_or_foe_class_consolidation_object/8</td>
+        <td style="border: 1px solid black; padding: 8px;">Ideal (50 epoch)</td>
+        <td style="border: 1px solid black; padding: 8px;">0.773</td>
+        <td style="border: 1px solid black; padding: 8px;">0.636</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">YOLOv8l</td>
+        <td style="border: 1px solid black; padding: 8px;">Friend_or_foe_class_consolidation_object/5</td>
+        <td style="border: 1px solid black; padding: 8px;">Ideal (25 epoch)</td>
+        <td style="border: 1px solid black; padding: 8px;">0.371</td>
+        <td style="border: 1px solid black; padding: 8px;">0.307</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">YOLOv8x</td>
+        <td style="border: 1px solid black; padding: 8px;">Friend_or_foe_class_consolidation_object/9</td>
+        <td style="border: 1px solid black; padding: 8px;">Ideal (25 epoch)</td>
+        <td style="border: 1px solid black; padding: 8px;">0.757</td>
+        <td style="border: 1px solid black; padding: 8px;">0.613</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid black; padding: 8px;">YOLOv8x-seg</td>
+        <td style="border: 1px solid black; padding: 8px;">Friend_or_foe_class_consolidation_object/5</td>
+        <td style="border: 1px solid black; padding: 8px;">Ideal (25 epoch)</td>
+        <td style="border: 1px solid black; padding: 8px;">0.734</td>
+        <td style="border: 1px solid black; padding: 8px;">0.562</td>
+      </tr>
+    </tbody>
+  </table>
