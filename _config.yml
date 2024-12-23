@@ -37,13 +37,13 @@ author:
 
   # Repositories and software development
 
-  github           : https://github.com/andrewjjeon
+  github           : "https://github.com/andrewjjeon"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
 
-  linkedin         : https://www.linkedin.com/in/andrew-jeon-58b294107/
+  linkedin         : "https://www.linkedin.com/in/andrew-jeon-58b294107/"
   twitter          : # Username for X / Twitter
   wikipedia        : # Username
   youtube          : # Username
