@@ -22,9 +22,9 @@ Seattle
 Portland
 ======
 
-<div style="display: grid; grid-template-columns: repeat(3, 600px); gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(2, 600px); gap: 20px;">
   <div style="text-align: center;">
-    <img src="/images/cannon.jpg" alt="Cannon Beach" style="width: 100%; max-width: 600px;">
+    <img src="/images/lincoln.jpg" alt="Cannon Beach" style="width: 100%; max-width: 600px;">
     <p>Cannon Beach</p>
   </div>
   <div style="text-align: center;">
