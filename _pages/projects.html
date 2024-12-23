@@ -97,7 +97,9 @@ author_profile: true
   <p>3D segmentation demonstration of Table, comparison with real world point cloud</p>
 </div>
 
-
+<p>
+  The couch segmentation had an accuracy of 0.827, the table had an accuracy of 0.832
+</p>
 
 <br><br>
 <br><br>
@@ -188,3 +190,40 @@ author_profile: true
     </div>
     <p>Original model detections vs Transformed Image model detections</p>
   </div>
+
+
+
+
+
+  <br><br>
+  <br><br>
+  
+  
+  <h2>Friend or Foe: Multi-Modal Military Target Identification (FFMMMTI)</h2>
+
+  <p>
+    My team and I built a comprehensive object detection pipeline starting from dataset creation/annotation 
+    to model evaluation and fine-tuning. We gathered 1000 images of Russian and USA army, navy, marines, and airforce.
+    We also added 100 (null) or irrelevant images to our dataset as well. We annotated and conducted data augmentation
+    in roboflow to increase our dataset size to 2,652 images. After this we trained various YOLOv8 models on this data. 
+    We then performed hyperparameter tuning to narrow down to the best learning-rate, epochs, optimizer, image size, 
+    loss function, and other hyperparameters. Further details can be found in the repo: 
+    <a href="https://github.com/Naif-Ganadily/Friend-or-Foe-Multi-Modal-Military-Target-Identification" target="_blank">FFMMMTI</a>
+  </p>
+
+
+  <div style="text-align: center;">
+    <img src="/images/ffmmmti.gif" alt="FFMMMTI live demo" style="max-width: 100%; height: auto;">
+    <p>Demonstration of Friend or Foe in action on test images</p>
+  </div>
+
+
+  
+  <div style="text-align: center;">
+    <div style="display: flex; justify-content: center; gap: 10px;">
+      <img src="/images/yolov8.jpg" alt="YOLOv8s (small) validation set detections" style="max-width: 49%; height: auto;">
+      <img src="/images/ffmmmti_table.png" alt="YOLOv8 versions validation performance" style="max-width: 49%; height: auto;">
+    </div>
+    <p>System performance</p>
+  </div>
+  

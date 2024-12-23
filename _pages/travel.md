@@ -16,7 +16,7 @@ Seattle
 </div>
 
 
-  Seattle (+ metro area) is a gorgeous, melancholic, and productive city. There are so many amazing hikes, lakes, snowsports, watersports, outdoor activities etc within a 1-2 hour radius of Seattle. The cityscape at night is also beautiful. The summers are short, the rest of the year is gray with a constant drizzle. Seattle is a highly productive city, most obviously in tech with titans Microsoft and Amazon being headquartered in it. There is also strong presence in Science and research through the University of Washington and related research institutes. This attracts many engineers, scientists, and career-focused individuals. This abundance of career-focused individuals combined with the Seattle Freeze could be why the city punches above its weight economically, but reports [high levels of depression](https://www.seattletimes.com/seattle-news/data/seattle-still-the-nations-saddest-large-metro-area-survey-shows/). 
+  Seattle (+ metro area) is a gorgeous, productive city that can have melancholic tones at times. There are so many amazing hikes, lakes, snowsports, watersports, outdoor activities etc within a 1-2 hour radius of Seattle. The cityscape at night is also beautiful. The summers are short, the rest of the year is gray with a constant drizzle. Seattle is a highly productive city, most obviously in tech with titans Microsoft and Amazon being headquartered in it. There is also strong presence in Science and research through the University of Washington and related research institutes. This attracts many engineers, scientists, and career-focused individuals. Consequentially, the city punches above its weight economically and has been reporting some of the [highest growth rates in the nation](https://www.seattletimes.com/seattle-news/politics/seattles-era-defining-prosperity-bomb-is-still-going-off/?utm_medium=social&utm_campaign=owned_echobox_f&utm_source=Facebook#Echobox=1734536722) over the last few years This abundance of career-focused individuals with little time and energy for other things, combined with the Seattle Freeze could be why the city reports [high levels of depression](https://www.seattletimes.com/seattle-news/data/seattle-still-the-nations-saddest-large-metro-area-survey-shows/). 
 
 
 Portland
@@ -67,8 +67,8 @@ Urbana-Champaign
 ======
 <div style="text-align: center;">
   <img src="/images/grainger.jpg" alt="The walk home after a hard days work at Grainger" style="width: 100%; max-width: 400px;">
-  <p>The walk home after a hard days work at Grainger</p>
+  <p>Walk home after a hard days work at Grainger</p>
 </div>
 
 
-Urbana-Champaign is a classic midwest college town, much of the towns populace and activities revolve around the University of Illinois (UIUC). UIUC draws a significant amount of international students as well as engineering/technology students due to its strong schools in those areas. UIUC is also a top party school, this could be because there's relatively little to do compared to large metropolitan areas.
+Urbana-Champaign is a classic midwest college town, much of the towns populace and activities revolve around the University of Illinois (UIUC). The people here are down-to-earth and very kind. UIUC draws a significant amount of international students as well as engineering students due to its strong schools in those areas. UIUC is also a top party school, this could be because there's relatively little to do compared to large metropolitan areas.
