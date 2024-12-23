@@ -43,10 +43,6 @@ Portland
     <img src="/images/multnomah.jpg" alt="Multnomah Falls" style="width: 100%; max-width: 600px;">
     <p>Multnomah Falls</p>
   </div>
-  <div style="text-align: center;">
-    <img src="/images/portlandriver.jpg" alt="Portland Waterfront" style="width: 100%; max-width: 600px;">
-    <p>Portland Waterfront</p>
-  </div>
 </div>
 
 
