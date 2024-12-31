@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Andrew, a Masters student at the University of Washington studying Machine Learning, Computer Vision, and Robotics. I use powerful scene representations to further robotic scene understanding and 3D reconstruction.
+Hello! I'm Andrew, a Masters student at the University of Washington studying Machine Learning, Computer Vision, and Robotics. I use powerful scene representations to further robotic scene understanding and 3D reconstruction for navigation and manipulation.
 
 Key works that inspired me
 - CLIP
