@@ -24,8 +24,8 @@ Portland
 
 <div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
   <div style="text-align: center;">
-    <img src="/images/lincoln.jpg" alt="Cannon Beach" style="width: 100%; max-width: 500px;">
-    <p>Cannon Beach</p>
+    <img src="/images/lincoln.jpg" alt="Lincoln City" style="width: 100%; max-width: 500px;">
+    <p>Lincoln City</p>
   </div>
   <div style="text-align: center;">
     <img src="/images/ecola.jpg" alt="Ecola Point" style="width: 100%; max-width: 500px;">
