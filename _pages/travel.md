@@ -93,11 +93,11 @@ Seoul
 <div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
   <div style="text-align: center;">
     <img src="/images/seoul.jpg" alt="Seoul" style="width: 100%; max-width: 500px;">
-    <p>Seoul</p>
+    <p>Lotte Tower</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/namsan.jpg" alt="Seoul" style="width: 100%; max-width: 500px;">
-    <p>Seoul</p>
+    <img src="/images/bugakpalgakjeon.jpg" alt="View from Bugak Octagonal Pavilion" style="width: 100%; max-width: 500px;">
+    <p>View from Bugak Octagonal Pavilion</p>
   </div>
 </div>
 
