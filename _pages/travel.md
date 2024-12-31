@@ -11,7 +11,7 @@ Seattle
 ======
 
 <div style="text-align: center;">
-  <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 600px;">
+  <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 500px;">
   <p>Gasworks</p>
 </div>
 
@@ -22,29 +22,29 @@ Seattle
 Portland
 ======
 
-<div style="display: grid; grid-template-columns: repeat(3, 600px); gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
   <div style="text-align: center;">
-    <img src="/images/lincoln.jpg" alt="Cannon Beach" style="width: 100%; max-width: 600px;">
+    <img src="/images/lincoln.jpg" alt="Cannon Beach" style="width: 100%; max-width: 500px;">
     <p>Cannon Beach</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/ecola.jpg" alt="Ecola Point" style="width: 100%; max-width: 600px;">
+    <img src="/images/ecola.jpg" alt="Ecola Point" style="width: 100%; max-width: 500px;">
     <p>Ecola Point</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/crown.jpg" alt="Columbia River Gorge" style="width: 100%; max-width: 600px;">
+    <img src="/images/crown.jpg" alt="Columbia River Gorge" style="width: 100%; max-width: 500px;">
     <p>Columbia River Gorge</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/meadows.jpg" alt="View from Mt. Hood" style="width: 100%; max-width: 600px;">
+    <img src="/images/meadows.jpg" alt="View from Mt. Hood" style="width: 100%; max-width: 500px;">
     <p>View from Mt. Hood</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/multnomah.jpg" alt="Multnomah Falls" style="width: 100%; max-width: 600px;">
+    <img src="/images/multnomah.jpg" alt="Multnomah Falls" style="width: 100%; max-width: 500px;">
     <p>Multnomah Falls</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/angelrest.jpg" alt="Angels Rest" style="width: 100%; max-width: 600px;">
+    <img src="/images/angelrest.jpg" alt="Angels Rest" style="width: 100%; max-width: 500px;">
     <p>Angels Rest</p>
   </div>
 </div>
@@ -56,7 +56,7 @@ Portland (+ metro area) is a funky, sporty, and beautiful city. With Mount Hood 
 Vancouver
 ======
 <div style="text-align: center;">
-  <img src="/images/vancouver.jpg" alt="Cypress Lookout" style="width: 100%; max-width: 600px;">
+  <img src="/images/vancouver.jpg" alt="Cypress Lookout" style="width: 100%; max-width: 500px;">
   <p>Cypress Lookout</p>
 </div>
 
@@ -66,7 +66,7 @@ Vancouver (+ metro area) is gorgeous, clean, and international. Whistler Mountai
 Urbana-Champaign
 ======
 <div style="text-align: center;">
-  <img src="/images/grainger.jpg" alt="The walk home after a hard days work at Grainger" style="width: 100%; max-width: 600px;">
+  <img src="/images/grainger.jpg" alt="The walk home after a hard days work at Grainger" style="width: 100%; max-width: 500px;">
   <p>Walk home after a hard days work at Grainger</p>
 </div>
 
@@ -78,13 +78,13 @@ Seoul
 ======
 
 
-<div style="display: grid; grid-template-columns: repeat(3, 600px); gap: 20px;">
+<div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
   <div style="text-align: center;">
-    <img src="/images/seoul.jpg" alt="Seoul" style="width: 100%; max-width: 600px;">
+    <img src="/images/seoul.jpg" alt="Seoul" style="width: 100%; max-width: 500px;">
     <p>Seoul</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/namsan.jpg" alt="Seoul" style="width: 100%; max-width: 600px;">
+    <img src="/images/namsan.jpg" alt="Seoul" style="width: 100%; max-width: 500px;">
     <p>Seoul</p>
   </div>
 </div>
