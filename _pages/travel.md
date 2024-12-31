@@ -7,6 +7,18 @@ redirect_from:
   - /travel.html
 ---
 
+<div style="text-align: center;">
+  <iframe 
+      src="https://www.google.com/maps/d/u/0/embed?mid=1yQPSIz0SonI_3J3_nh_6QIPtYhuVaFQ&ehbc=2E312F" 
+      width="100%" 
+      height="480" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+  </iframe>
+  <p>Andrew's Travels</p>
+</div>
+
 Seattle
 ======
 
