@@ -11,10 +11,12 @@ author_profile: true
 <h2>Sensor Fusion for Autonomous Rover Navigation</h2>
 
 <p>
+  I am leading the testing and evaluation of a sensor fusion inertial navigation system with 5 sensing modalities on a Rover with a solid-state LiDAR system.
+  I tuned navigation system and sensor parameters to achieve an Absolute Trajectory Error of 9.12091m across multi-kilometer trajectories. 
+
   MINs is a Multisensor-aided Inertial Navigation System that can fuse up to 5 sensing modalities (IMU, wheel encoders, camera, GNSS, and LiDAR) 
   in a Kalman Filter.<a href="https://github.com/rpng/mins" target="_blank">MINs</a> I have tuned MINs on public datasets such as the 
-  <a href="https://sites.google.com/view/complex-urban-dataset" target="_blank">KAIST Urban Dataset</a>. I have also successfully run MINs on SLAM
-  runs from our lab's actual rover. Please see MINs result below.
+  <a href="https://sites.google.com/view/complex-urban-dataset" target="_blank">KAIST Urban Dataset</a> as well as our labs rover runs.
 </p>
 
 
@@ -43,14 +45,9 @@ author_profile: true
 </p>
 
 <p>
-  In order to perform novel object grasping with this model, we propose to run 2x instances of FoundationPose. 
-  1x on the robot hand or configuration. 1x on the object to grasp. This should give you the respective pose matrix which 
-  contains the 3x1 translation(tx, ty, tz) and 3x3 rotation (r11, r12, r13, r21, r22, r23, ...). At this point,
-  you should have the <b>robot-to-camera</b> pose matrix and the <b>object-to-camera</b> pose matrix. If you have these
-  two matrices, you can now calculate the <b>robot-to-object</b> pose matrix which in turn would enable robotic grasping.
-  The more accurate the pose matrix, the more precise the object grasping with your robot hand or configuration. The
-  long-term goal is to make this system robust enough to work with whatever robot model and configuration you have i.e. 
-  franka robot hand, franka robot hand + link0, PP100 hand + link0 + link1, and so forth. Our rough approach is illustrated below:
+  I am leading the development of a pipeline that runs multiple instances of the foundation model, processes the transformation and pose matrices to enable precise grasping.
+  I am also generating synthetic data, ground truth pose matrices, and robot camera frame visualizations with Pybullet for evaluation.
+  The foundationpose object instance and synthetic data to evaluate the robot instance are shown below.
 </p>
 
 
@@ -84,10 +81,11 @@ author_profile: true
 
 <p>
   VLMaps is a spatial map representation that embeds pretrained visual-language features with a 3D reconstruction
-  and projects to a top-down 2D map. VLMaps embeds visual features from an LSeg visual encoder to points in a point cloud. These points are then projected 
-  to a top-down navigation map where only the point with the highest height is kept. After this, the visual features are 
-  compared through cosine similarity to textual features from a LSeg text encoder to determine the semantic label of the point. 
-  Due to the top-down projection, the robot wouldn't be capable of 3D navigation such as “go to the plant below the table.” 
+  and projects to a top-down 2D map. VLMaps embeds visual features from an LSeg visual encoder to points in a point cloud. 
+  These points are then projected to a top-down navigation map where only the point with the highest height is kept. After 
+  this, the visual features are compared through cosine similarity to textual features from a LSeg text encoder to determine 
+  the semantic label of the point. Due to the top-down projection, the robot wouldn't be capable of 3D navigation such as 
+  “go to the plant below the table.” 
   
   Further details can be found in <a href="https://vlmaps.github.io/" target="_blank">VLMaps</a>
 </p>
@@ -95,8 +93,8 @@ author_profile: true
 <p>
   To address this limitation, I implemented a voxel grid projection by populating the voxel grid cells with their corresponding 
   points. When multiple points fall in the same voxel cell I average all their embeddings to generate a singular embedding. 
-  This resulted in successful, 3D semantic segmentation of the voxel grid scene, which would allow a robot to navigate in the 
-  3D space.
+  This resulted in a best class segmentation accuracy of 0.907 and the robot being able to navigation in 3D as opposed to 2D.
+
 </p>
 
 <div style="text-align: center;">
@@ -155,9 +153,8 @@ author_profile: true
 <p>
   The project’s active learning technique takes advantage of the low-rank structure of the neural population dynamics 
   to determine the most informative photostimulation patterns. It uses SVD to create low rank autoregressive models 
-  that predict neural activity. I conducted various regularization, tuning experiments, closed-form solution implementations, 
-  and code refactors on these models. My most significant result was that L2 regularization was more beneficial in full rank 
-  models compared to low rank.
+  that predict neural activity. I conducted various regularization and tuning experiments on these models. This resulted 
+  in 15-18% improvements (MSE) in model performance. 
 
   Further details can be found in the paper <a href="https://arxiv.org/abs/2412.02529" 
   target="_blank">Active learning of neural population dynamics</a>
@@ -196,15 +193,13 @@ author_profile: true
   Fisheye cameras have a wide field of view, which allows them to capture wider scenes, but comes with image distortion
   that can impede computer vision tasks. My main contribution to our team ensemble learning solution was using OpenCV image 
   processing to transform the full training set of colored + nighttime images to all black&white and retraining the YOLO 
-  model on the transformed dataset. This resulted in 5-10% improved mAP object detection performance on night-time images 
-  in the test set
+  model on the transformed dataset. This resulted in 9% improved mAP object detection performance on night-time images 
+  in the test set.
 </p>
 
 <p>
   Specifically, the images below powerfully show the improvement in performance my black&white image transformation and 
-  subsequent retraining achieved. On the left we have detections in a night-time image from the original YOLOv8 model, 
-  on the right we have detections in the same night-time image from the YOLOv8 model trained on my full black&white 
-  transformed dataset.
+  subsequent retraining achieved.
 </p>
 
 
@@ -237,8 +232,7 @@ author_profile: true
 
   <p>
     My team and I built a comprehensive object detection pipeline starting from dataset creation/annotation 
-    to model evaluation and fine-tuning. We gathered 1000 images of Russian and USA army, navy, marines, and airforce.
-    We also added 100 (null) or irrelevant images to our dataset as well. We annotated and conducted data augmentation
+    to model evaluation and fine-tuning. We gathered images, annotated and conducted data augmentation
     in roboflow to increase our dataset size to 2,652 images. After this we trained various YOLOv8 models on this data. 
     We then performed hyperparameter tuning to narrow down to the best learning-rate, epochs, optimizer, image size, 
     loss function, and other hyperparameters. Further details can be found in the repo: 
@@ -250,15 +244,12 @@ author_profile: true
     <img src="/images/ffmmmti.gif" alt="FFMMMTI live demo" style="max-width: 100%; height: auto;">
     <p>Demonstration of Friend or Foe in action on test images</p>
   </div>
-
-
   
   <div style="text-align: center;">
     <img src="/images/yolov8.jpg" alt="YOLOv8s (small) validation set detections" style="max-width: 100%; height: auto;">
     <p>YOLOv8s (small) validation set detections</p>
   </div>
   
-
   <p>YOLOv8 Model Performance on Validation Set</p>
 
   <table style="border-collapse: collapse; width: 100%; text-align: center;">
