@@ -22,17 +22,14 @@ author_profile: true
 
 <div style="display: flex; justify-content: center; gap: 5px; text-align: center;">
   <div>
-    <img src="/images/MINSurban28.gif" alt="MINs on KAIST dataset" style="max-width: 60%; height: auto;">
+    <img src="/images/MINSurban28.gif" alt="MINs on KAIST dataset" style="max-width: 80%; height: auto;">
     <p>MINs on KAIST car dataset</p>
   </div>
   <div>
-    <img src="/images/labmins1.gif" alt="MINs on our actual rover" style="max-width: 60%; height: auto;">
-    <p>MINs on our actual rover</p>
+    <img src="/images/rover0824.gif" alt="MINs on our rover data" style="max-width: 80%; height: auto;">
+    <p>MINs on actual rover</p>
   </div>
 </div>
-
-
-
 
 
 
@@ -47,7 +44,11 @@ author_profile: true
 <p>
   I am leading the development of a pipeline that runs multiple instances of the foundation model, processes the transformation and pose matrices to enable precise grasping.
   I am also generating synthetic data, ground truth pose matrices, and robot camera frame visualizations with Pybullet for evaluation.
-  The foundationpose object instance and synthetic data to evaluate the robot instance are shown below.
+  The foundationpose object instance and synthetic data to evaluate the robot instance are shown below. 
+  
+  Achieved following errors on robot hand pose estimation
+  - Rotation Angle Error of 0.674 degrees
+  - Translation Error of 0.655 mm
 </p>
 
 <div>
@@ -61,11 +62,11 @@ author_profile: true
 </div>
 
 <div>
-  <img src="/images/fp_ketchup.gif" alt="FoundationPose object instance" style="max-width: 60%; height: auto;">
+  <img src="/images/fp_ketchup.gif" alt="FoundationPose object instance" style="max-width: 400%; height: auto;">
   <p>FoundationPose Object Instance Demo on HOPE Dataset Ketchup</p>
 </div>
 
-<div style="display: flex; justify-content: center; gap: 10px;">
+<div>
   <img src="/images/pose_vis.png" alt="robotgt" style="max-width: 40%; height: auto;">
   <img src="/images/handposeviz.png" alt="handgt" style="max-width: 40%; height: auto;">
   <p>Synthetic Robot Pose Data Generation for Evaluation of FoundationPose Robot Instance</p>
@@ -140,8 +141,6 @@ author_profile: true
 
 
 <h2>Low Rank Autoregressive Model Regularization and Tuning</h2>
-
-
 
 <p>
   There is a strong need for techniques that minimize the amount of data needed to learn neural population dynamics 
