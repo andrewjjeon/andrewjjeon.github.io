@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am very passionate about computer vision and its tactical and robotic applications. Specifically, I've worked on 
-Robotic Navigation with Sensor Fusion and Vision-Language Models, Object Detection and recently I've been working on a 
-Vision-Language-based "Tactical Advisor".
+Hi, I am very passionate about computer vision, particularly its tactical, autonomous, and robotic applications. Specifically, I've worked on Robotic Navigation with Sensor Fusion, Robotic Navigation with Vision-Language Models, Pose Estimation with foundation models, Object Detection and recently I've been working on a Vision-Language-based "Tactical Advisor". 
 
 Some papers that have inspired me include the following, [CLIP](https://arxiv.org/abs/2103.00020), 
 [VLMaps](https://arxiv.org/pdf/2210.05714), [AlphaStar](https://arxiv.org/pdf/2308.03526), 
