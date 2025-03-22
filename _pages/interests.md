@@ -15,7 +15,7 @@ Aside from Computer Vision and Robotics, I also enjoy:
 Seattle, Washington, USA
 ======
 
-<div style="text-align: center;">
+<div>
   <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 500px;">
   <p>Gasworks</p>
 </div>
@@ -52,28 +52,28 @@ Oregon, USA
 
 Vancouver, BC, CA
 ======
-<div style="text-align: center;">
+<div>
   <img src="/images/vancouver.jpg" alt="Cypress Lookout" style="width: 100%; max-width: 500px;">
   <p>Cypress Lookout</p>
 </div>
 
 Urbana-Champaign, IL, USA
 ======
-<div style="text-align: center;">
+<div>
   <img src="/images/grainger.jpg" alt="The walk home after a hard days work at Grainger" style="width: 100%; max-width: 500px;">
   <p>Walk home after a hard days work at Grainger</p>
 </div>
 
 Chicago, IL, USA
 ======
-<div style="text-align: center;">
+<div>
   <img src="/images/chicago.jpg" alt="Palmisano Park" style="width: 100%; max-width: 500px;">
   <p>Palmisano Park, Bridgeport</p>
 </div>
 
 Seoul, South Korea
 ======
-<div style="text-align: center;">
+<div>
   <img src="/images/bugakpalgakjeon.jpg" alt="View from Bugak Octagonal Pavilion" style="width: 100%; max-width: 500px;">
   <p>View from Bugak Octagonal Pavilion in Seoul</p>
 </div>
