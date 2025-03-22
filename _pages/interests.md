@@ -20,6 +20,8 @@ Seattle, Washington, USA
   <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 500px;">
 </div>
 
+<br><br>
+
 Oregon, USA
 <div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
   <div style="text-align: center;">
@@ -42,20 +44,28 @@ Oregon, USA
   </div>
 </div>
 
+<br><br>
+
 Vancouver, BC, CA
 <div>
   <img src="/images/vancouver.jpg" alt="Cypress Lookout" style="width: 100%; max-width: 500px;">
 </div>
+
+<br><br>
 
 Urbana-Champaign, IL, USA
 <div>
   <img src="/images/grainger.jpg" alt="The walk home after a hard days work at Grainger" style="width: 100%; max-width: 500px;">
 </div>
 
+<br><br>
+
 Chicago, IL, USA
 <div>
   <img src="/images/chicago.jpg" alt="Palmisano Park" style="width: 100%; max-width: 500px;">
 </div>
+
+<br><br>
 
 Seoul, South Korea
 <div>
