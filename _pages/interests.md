@@ -1,10 +1,10 @@
 ---
-permalink: /travel/
-title: "Travel"
+permalink: /interests/
+title: "Interests"
 author_profile: true
 redirect_from: 
-  - /travel/
-  - /travel.html
+  - /interests/
+  - /interests.html
 ---
 
 <div style="text-align: center;">
