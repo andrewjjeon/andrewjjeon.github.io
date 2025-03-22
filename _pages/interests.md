@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Aside from Computer Vision and Robotics, I also enjoy:
-- Strategy (Games, War History)
+- Strategy (Games, War History, Maps)
 - Viewpoints, Hiking
 - Health, Fitness
 
@@ -70,4 +70,19 @@ Chicago, IL, USA
 Seoul, South Korea
 <div>
   <img src="/images/bugakpalgakjeon.jpg" alt="View from Bugak Octagonal Pavilion" style="width: 100%; max-width: 500px;">
+</div>
+
+<br><br>
+<br><br>
+
+Cool Maps
+
+<div>
+  <img src="/images/gdpmap.png" alt="Gasworks" style="width: 100%; max-width: 500px;">
+</div>
+
+<br><br>
+
+<div>
+  <img src="/images/megaregions.png" alt="Gasworks" style="width: 100%; max-width: 500px;">
 </div>
