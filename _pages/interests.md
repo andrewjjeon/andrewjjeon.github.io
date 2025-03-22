@@ -78,11 +78,11 @@ Seoul, South Korea
 Cool Maps
 
 <div>
-  <img src="/images/gdpmap.png" alt="Gasworks" style="width: 100%; max-width: 500px;">
+  <img src="/images/gdpmap.png" alt="GDP Cartogram of World 2021" style="width: 100%; max-width: 700px;">
 </div>
 
 <br><br>
 
 <div>
-  <img src="/images/megaregions.png" alt="Gasworks" style="width: 100%; max-width: 500px;">
+  <img src="/images/megaregions.png" alt="Emerging Megaregions in USA" style="width: 100%; max-width: 700px;">
 </div>
