@@ -12,6 +12,9 @@ Aside from Computer Vision and Robotics, I also enjoy:
 - Viewpoints, Hiking
 - Health, Fitness
 
+<br><br>
+<br><br>
+
 Seattle, Washington, USA
 <div>
   <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 500px;">
