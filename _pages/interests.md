@@ -8,8 +8,9 @@ redirect_from:
 ---
 
 Aside from Computer Vision and Robotics, I also enjoy:
-- Good Views, Hiking
-- Strategy Games
+- Strategy (Strategy Games, War History)
+- Viewpoints, Hiking
+- Health, Fitness
 
 Seattle, Washington, USA
 ======
