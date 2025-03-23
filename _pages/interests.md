@@ -58,13 +58,6 @@ Chicago, IL, USA
 </div>
 
 <br><br>
-
-Seoul, South Korea
-<div>
-  <img src="/images/bugakpalgakjeon.jpg" alt="View from Bugak Octagonal Pavilion" style="width: 100%; max-width: 500px;">
-</div>
-
-<br><br>
 <br><br>
 
 Cool Maps
