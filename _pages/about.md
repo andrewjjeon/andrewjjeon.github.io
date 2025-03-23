@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am very passionate about Computer Vision, Robotics, and Tactical, Autonomous applications. Specifically, I've worked on Visual-Inertial Sensor Fusion for SLAM, Semantic Segmentation for Robotic Navigation with Vision-Language Models, Pose Estimation with Foundation Models, Object Detection and I am now working on a Vision-Language-based "Tactical Advisor". 
+Hi, I am very passionate about Machine Learning, Computer Vision, and Robotics with a focus on tactical and autonomous applications.Specifically, I've worked on Visual-Inertial Sensor Fusion for SLAM, Semantic Segmentation for Robotic Navigation with Vision-Language Models, Pose Estimation with Foundation Models, Object Detection and I am now working on a Vision-Language-based "Tactical Advisor". 
 
 Some papers that have inspired me include the following, [CLIP](https://arxiv.org/abs/2103.00020), 
 [VLMaps](https://arxiv.org/pdf/2210.05714), [AlphaStar](https://arxiv.org/pdf/2308.03526), 
