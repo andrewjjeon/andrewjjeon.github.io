@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Aside from Computer Vision and Robotics, I also enjoy:
-- Strategy (Games, War History, Maps)
+- Strategy - Strategy Games, War History, Maps
 - Viewpoints
 - Fitness
 
