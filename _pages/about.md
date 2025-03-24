@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am very passionate about Machine Learning, Computer Vision, and AI-Robotics with a focus on tactical and autonomous applications. Specifically, I've worked on Visual-Inertial Sensor Fusion for SLAM, Semantic Segmentation for Robotic Navigation with Vision-Language Models, Pose Estimation with Foundation Models, Object Detection and I am now working on a Vision-Language-based "Tactical Advisor". 
+Hi, I am very passionate about Machine Learning, Computer Vision, and AI-Robotics with a focus on tactical and autonomous applications. Specifically, I've worked on Sensor Fusion for SLAM, Semantic Segmentation for Robotic Navigation, Pose Estimation with Foundation Models, Object Detection with YOLO and I am now working on a Vision-Language-based "Tactical Advisor". 
 
 Some papers that have inspired me include the following, [CLIP](https://arxiv.org/abs/2103.00020), 
 [VLMaps](https://arxiv.org/pdf/2210.05714), [AlphaStar](https://arxiv.org/pdf/2308.03526), 
@@ -19,4 +19,4 @@ Background
 I received my Bachelor of Science from [UIUC ECE](https://ece.illinois.edu/). After my undergraduate education, I worked 
 in the automation, and semiconductor industries for a couple years. Now, I am pursuing my Master of Science at [UW ECE](https://www.ece.uw.edu/) where I study and research Machine Learning, Computer Vision, and Robotics.
 
-I am an upcoming Summer 2025 MARTIANS Computer Vision Intern at Sandia National Labs.
+I am an upcoming Summer 2025 MARTIANS Machine Learning Intern at Sandia National Labs.
