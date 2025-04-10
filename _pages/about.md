@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am very passionate about Machine Learning and Computer Vision, for Robotic, Autonomous Perception. Specifically, I've worked on Sensor Fusion for SLAM, Open Vcoabulary Semantic Segmentation for Robotic Navigation, Pose Estimation with Foundation Models, Object Detection with YOLO and I am now working on a Vision-Language-based "Tactical Advisor". 
+Hi, I am very passionate about Machine Learning, Computer Vision, and Robotics. Specifically, I've worked on Sensor Fusion for SLAM, Open Vcoabulary Semantic Segmentation for Robotic Navigation, Pose Estimation with Foundation Models, Object Detection with YOLO and I am now working on a Foundation Model-based "Tactical Advisor Agent". 
 
 Some papers that have inspired me include the following, [CLIP](https://arxiv.org/abs/2103.00020), 
 [VLMaps](https://arxiv.org/pdf/2210.05714), [FoundationPose](https://nvlabs.github.io/FoundationPose/), [MINS](https://arxiv.org/abs/2309.15390), [VINS-Mono/VINS-Fusion](https://ieeexplore.ieee.org/document/8421746), [AlphaStar](https://arxiv.org/pdf/2308.03526), 
