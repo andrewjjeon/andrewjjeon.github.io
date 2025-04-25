@@ -67,7 +67,13 @@ redirect_from:
 
 # Maps
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="/images/gdpmap.png" alt="GDP Cartogram of World 2021" style="width: 100%; max-width: 700px;">
-  <img src="/images/megaregions.png" alt="Emerging Megaregions in USA" style="width: 100%; max-width: 700px;">
+<div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
+  <div style="text-align: center;">
+    <img src="/images/gdpmap.png" alt="gdpmap2021" style="width: 100%; max-width: 500px;">
+    <p>GDP Cartogram of the World 2021</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/megaregions.png" alt="Megaregions" style="width: 100%; max-width: 500px;">
+    <p>Emerging Megaregions in USA</p>
+  </div>
 </div>
