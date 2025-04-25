@@ -7,67 +7,67 @@ redirect_from:
   - /interests.html
 ---
 
-Seattle, Washington, USA
-<div>
-  <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 500px;">
-</div>
+# Places
 
-<br><br>
-
-Oregon, USA
 <div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
   <div style="text-align: center;">
+    <img src="/images/gasworks.jpg" alt="Gasworks" style="width: 100%; max-width: 500px;">
+    <p>Seattle, WA, USA</p>
+  </div>
+  <div style="text-align: center;">
     <img src="/images/lincoln.jpg" alt="Lincoln City" style="width: 100%; max-width: 500px;">
+    <p>Lincoln City, OR, USA</p>
   </div>
   <div style="text-align: center;">
     <img src="/images/ecola.jpg" alt="Ecola Point" style="width: 100%; max-width: 500px;">
+    <p>Ecola Point, OR, USA</p>
   </div>
   <div style="text-align: center;">
     <img src="/images/crown.jpg" alt="Columbia River Gorge" style="width: 100%; max-width: 500px;">
+    <p>Crown Point, OR, USA</p>
   </div>
   <div style="text-align: center;">
     <img src="/images/meadows.jpg" alt="View from Mt. Hood" style="width: 100%; max-width: 500px;">
+    <p>Mount Hood, OR, USA</p>
   </div>
   <div style="text-align: center;">
     <img src="/images/multnomah.jpg" alt="Multnomah Falls" style="width: 100%; max-width: 500px;">
+    <p>Multnomah Falls, OR, USA</p>
   </div>
   <div style="text-align: center;">
     <img src="/images/angelrest.jpg" alt="Angels Rest" style="width: 100%; max-width: 500px;">
+    <p>Angels Rest, OR, USA</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/cannon.jpg" alt="Cannon Beach" style="width: 100%; max-width: 500px;">
+    <p>Cannon Beach, OR, USA</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/vancouver.jpg" alt="Cypress Lookout" style="width: 100%; max-width: 500px;">
+    <p>Vancouver, BC, CA</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/LA.jpg" alt="LA" style="width: 100%; max-width: 500px;">
+    <p>Griffith Observatory, CA, USA</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/huntington.jpg" alt="huntingtonbeach" style="width: 100%; max-width: 500px;">
+    <p>LA, CA, USA</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/grainger.jpg" alt="Grainger" style="width: 100%; max-width: 500px;">
+    <p>Urbana-Champaign, IL, USA</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="/images/chicago.jpg" alt="Palmisano Park" style="width: 100%; max-width: 500px;">
+    <p>Chicago, IL, USA</p>
   </div>
 </div>
 
-<br><br>
 
-Vancouver, BC, CA
-<div>
-  <img src="/images/vancouver.jpg" alt="Cypress Lookout" style="width: 100%; max-width: 500px;">
-</div>
+# Maps
 
-<br><br>
-
-Urbana-Champaign, IL, USA
-<div>
-  <img src="/images/grainger.jpg" alt="The walk home after a hard days work at Grainger" style="width: 100%; max-width: 500px;">
-</div>
-
-<br><br>
-
-Chicago, IL, USA
-<div>
-  <img src="/images/chicago.jpg" alt="Palmisano Park" style="width: 100%; max-width: 500px;">
-</div>
-
-<br><br>
-<br><br>
-
-Cool Maps
-
-<div>
+<div style="display: flex; justify-content: center; gap: 20px;">
   <img src="/images/gdpmap.png" alt="GDP Cartogram of World 2021" style="width: 100%; max-width: 700px;">
-</div>
-
-<br><br>
-
-<div>
   <img src="/images/megaregions.png" alt="Emerging Megaregions in USA" style="width: 100%; max-width: 700px;">
 </div>
