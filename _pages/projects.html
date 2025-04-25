@@ -42,11 +42,15 @@ author_profile: true
 </p>
 
 <p>
-  I am leading the development of a pipeline that runs multiple instances of the foundation model, processes the transformation and pose matrices to enable precise grasping.
-  I am also generating synthetic data, ground truth pose matrices, and robot camera frame visualizations with Pybullet for evaluation.
-  The foundationpose object instance and synthetic data to evaluate the robot instance are shown below. 
+  I developed a synthetic data generation pipeline in Pybullet that processes the world to camera transformations, coordinate space transformations, 
+  and calculates the correct ground truth robot pose matrices. The pipeline uses robot (.urdf) and (.obj) files to load the robot or whichever link we want.
+  I then setup a virtual camera to take frames (rgb, depth, binary mask) which are all inputs the foundation model, foundationpose needs to run successfully.
+  The Ground Truth Annotations are visualized. 
+
+  The ultimate goal of the project is to run multiple instances of the foundation model, one on the object to grasp and one on the robot. We then would use
+  the corresponding pose matrices to enable precise grasping.
   
-  Achieved following errors on robot hand pose estimation
+  Achieved following competitive errors on robot hand pose estimation
   - Rotation Angle Error of 0.674 degrees
   - Translation Error of 0.655 mm
 </p>
@@ -67,8 +71,10 @@ author_profile: true
 </div>
 
 <div>
-  <img src="/images/pose_vis.png" alt="robotgt" style="max-width: 40%; height: auto;">
-  <img src="/images/handposeviz.png" alt="handgt" style="max-width: 40%; height: auto;">
+  <img src="/images/7.png" alt="robotgt" style="max-width: 25%; height: auto;">
+  <img src="/images/7m.png" alt="handgt" style="max-width: 25%; height: auto;">
+  <img src="/images/7d.png" alt="handgt" style="max-width: 25%; height: auto;">
+  <img src="/images/7gt.png" alt="handgt" style="max-width: 25%; height: auto;">
   <p>Synthetic Robot Pose Data Generation using Pybullet</p>
 </div>
 
