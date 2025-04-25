@@ -45,7 +45,7 @@ author_profile: true
   I developed a synthetic data generation pipeline in Pybullet that processes the world to camera transformations, coordinate space transformations, 
   and calculates the correct ground truth robot pose matrices. The pipeline uses robot (.urdf) and (.obj) files to load the robot or whichever link we want.
   I then setup a virtual camera to take frames (rgb, depth, binary mask) which are all inputs the foundation model, foundationpose, needs to run successfully.
-  There is also code for ground truth visualizations and I also modified a script (graciously provided by Stephen Tyree and Stan Birchfield from Nvidia) to 
+  There is also code for ground truth visualizations and I also modified a script (graciously provided by Stan Birchfield of Nvidia) to 
   transform a (.urdf) robot descriptor file to 1 whole (.obj) mesh file.
 
   The ultimate goal of the project is to run multiple instances of the foundation model, one on the object to grasp and one on the robot. We then would use
