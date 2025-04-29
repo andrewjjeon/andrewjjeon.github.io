@@ -20,3 +20,9 @@ I received my Bachelor of Science from [UIUC ECE](https://ece.illinois.edu/). Af
 in the automation, and semiconductor industries for a couple years. Now, I am pursuing my Master of Science at [UW ECE](https://www.ece.uw.edu/) where I study and research Machine Learning, Computer Vision, and Robotics.
 
 I am an incoming Summer 2025 MARTIANS Machine Learning Intern at Sandia National Labs.
+
+<p align="center">
+  <img src="/assets/images/uiuc_logo.png" alt="UIUC Logo" width="100" style="margin: 10px;">
+  <img src="/assets/images/uw_logo.png" alt="UW Logo" width="100" style="margin: 10px;">
+  <img src="/assets/images/sandia_logo.png" alt="Sandia National Labs Logo" width="100" style="margin: 10px;">
+</p>
