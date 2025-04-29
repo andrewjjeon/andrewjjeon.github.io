@@ -24,9 +24,9 @@ I am an incoming Summer 2025 MARTIANS Machine Learning Intern at Sandia National
 <br><br>
 
 <p align="left">
-  <img src="/assets/images/uiuc.png" alt="UIUC Logo" width="100" style="margin: 10px;">
-  <img src="/assets/images/uw.png" alt="UW Logo" width="100" style="margin: 10px;">
-  <img src="/assets/images/sandia.png" alt="Sandia National Labs Logo" width="100" style="margin: 10px;">
+  <img src="/assets/images/uiuc.jpg" alt="UIUC Logo" width="100" style="margin: 10px;">
+  <img src="/assets/images/uw.jpg" alt="UW Logo" width="100" style="margin: 10px;">
+  <img src="/assets/images/sandia.jpg" alt="Sandia National Labs Logo" width="100" style="margin: 10px;">
 </p>
 
 <br><br>
