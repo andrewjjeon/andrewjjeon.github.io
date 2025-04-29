@@ -21,8 +21,12 @@ in the automation, and semiconductor industries for a couple years. Now, I am pu
 
 I am an incoming Summer 2025 MARTIANS Machine Learning Intern at Sandia National Labs.
 
-<p align="center">
-  <img src="/assets/images/uiuc_logo.png" alt="UIUC Logo" width="100" style="margin: 10px;">
-  <img src="/assets/images/uw_logo.png" alt="UW Logo" width="100" style="margin: 10px;">
-  <img src="/assets/images/sandia_logo.png" alt="Sandia National Labs Logo" width="100" style="margin: 10px;">
+<br><br>
+
+<p align="left">
+  <img src="/assets/images/uiuc.png" alt="UIUC Logo" width="100" style="margin: 10px;">
+  <img src="/assets/images/uw.png" alt="UW Logo" width="100" style="margin: 10px;">
+  <img src="/assets/images/sandia.png" alt="Sandia National Labs Logo" width="100" style="margin: 10px;">
 </p>
+
+<br><br>
