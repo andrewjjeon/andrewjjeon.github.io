@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am extremely passionate about applying Machine Learning, Computer Vision, Autonomy, and Strategy. Some projects that I've worked on are Sensor Fusion for Autonomous Rover SLAM, Open Vocabulary Semantic Segmentation for Robotic Navigation, Robot Pose Estimation with a Foundation Model, Low Rank Autoregressive Model Regularization and Hyperparameter Tuning, and Object Detection with YOLO. I am currently working on a Foundation Model-based "Strategic Advisor Agent". 
+Hi, I am extremely passionate about Machine Learning, Computer Vision, and Autonomy. Some projects that I've worked on are Sensor Fusion for Autonomous Rover SLAM, Open Vocabulary Semantic Segmentation for Robotic Navigation, Robot Pose Estimation with a Foundation Model, Low Rank Autoregressive Model Regularization and Hyperparameter Tuning, and Object Detection with YOLO. I am currently working on a Foundation Model-based "Strategic Advisor Agent". 
 
 Some papers that have inspired me include the following, [CLIP](https://arxiv.org/abs/2103.00020), 
 [VLMaps](https://arxiv.org/pdf/2210.05714), [FoundationPose](https://nvlabs.github.io/FoundationPose/), [MINS](https://arxiv.org/abs/2309.15390), [VINS-Mono/VINS-Fusion](https://ieeexplore.ieee.org/document/8421746), [AlphaStar](https://arxiv.org/pdf/2308.03526), 

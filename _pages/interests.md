@@ -58,10 +58,6 @@ redirect_from:
     <img src="/images/grainger.jpg" alt="Grainger" style="width: 100%; max-width: 500px;">
     <p>Urbana-Champaign, IL, USA</p>
   </div>
-  <div style="text-align: center;">
-    <img src="/images/chicago.jpg" alt="Palmisano Park" style="width: 100%; max-width: 500px;">
-    <p>Chicago, IL, USA</p>
-  </div>
 </div>
 
 
