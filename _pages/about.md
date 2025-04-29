@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am extremely passionate about using Machine Learning, Computer Vision to enhance autonomous systems.  I
-ultimately want to enhance our nation’s capabilities by taking SOTA AI/ML Research and modifying it for real-world, defense applications. Projects I've worked on towards this direction are Sensor Fusion for SLAM, Open Vocabulary Semantic Segmentation for Robotic Navigation, Pose Estimation with Foundation Models, Object Detection with YOLO and I am now working on a Foundation Model-based "Tactical Advisor Agent". 
+Hi, I am extremely passionate about applying Machine Learning, Computer Vision, Autonomy, and Strategy. Some projects that I've worked on are Sensor Fusion for Autonomous Rover SLAM, Open Vocabulary Semantic Segmentation for Robotic Navigation, Robot Pose Estimation with a Foundation Model, Object Detection with YOLO. I am currently working on a Foundation Model-based "Strategic Advisor Agent". 
 
 Some papers that have inspired me include the following, [CLIP](https://arxiv.org/abs/2103.00020), 
 [VLMaps](https://arxiv.org/pdf/2210.05714), [FoundationPose](https://nvlabs.github.io/FoundationPose/), [MINS](https://arxiv.org/abs/2309.15390), [VINS-Mono/VINS-Fusion](https://ieeexplore.ieee.org/document/8421746), [AlphaStar](https://arxiv.org/pdf/2308.03526), 
@@ -20,4 +19,4 @@ Background
 I received my Bachelor of Science from [UIUC ECE](https://ece.illinois.edu/). After my undergraduate education, I worked 
 in the automation, and semiconductor industries for a couple years. Now, I am pursuing my Master of Science at [UW ECE](https://www.ece.uw.edu/) where I study and research Machine Learning, Computer Vision, and Robotics.
 
-I am an upcoming Summer 2025 MARTIANS Machine Learning Intern at Sandia National Labs.
+I am an incoming Summer 2025 MARTIANS Machine Learning Intern at Sandia National Labs.
