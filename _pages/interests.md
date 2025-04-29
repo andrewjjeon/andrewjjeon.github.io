@@ -35,10 +35,6 @@ redirect_from:
     <p>Multnomah Falls, OR, USA</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/angelrest.jpg" alt="Angels Rest" style="width: 100%; max-width: 500px;">
-    <p>Angels Rest, OR, USA</p>
-  </div>
-  <div style="text-align: center;">
     <img src="/images/cannon.jpg" alt="Cannon Beach" style="width: 100%; max-width: 500px;">
     <p>Cannon Beach, OR, USA</p>
   </div>
