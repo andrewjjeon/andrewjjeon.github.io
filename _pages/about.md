@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am extremely passionate about Machine Learning, Computer Vision, and Autonomy. My personal interests include Strategy, War History, and Basketball. Naturally, applying Machine Learning and Computer Vision to enhance strategic autonomy is an area that greatly excites me. Some projects that I've worked on are 
+Hi, I am extremely passionate about Machine Learning, Computer Vision, and Autonomy. I also enjoy Strategy, War History, and Basketball. Naturally, applying Machine Learning and Computer Vision to enhance strategic autonomy is an area that greatly excites me. Some projects that I've worked on are 
 - Sensor Fusion for Autonomous Rover SLAM
 - Open Vocabulary Semantic Segmentation for Robotic Navigation
 - Robot Pose Estimation with a Foundation Model
