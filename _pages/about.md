@@ -7,14 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am extremely passionate about Machine Learning, Computer Vision, and Autonomy. I also enjoy Strategy, War History, and Basketball. Naturally, applying Machine Learning and Computer Vision to enhance strategic autonomy is an area that greatly excites me. Some projects that I've worked on are 
+Hi, I am extremely passionate about Machine Learning and Computer Vision, for Autonomy. I also enjoy Strategy, History, and Basketball. Naturally, applying Machine Learning and Computer Vision to enhance strategic autonomy is an area that greatly excites me. Some projects that I've worked on are:
+
 - Sensor Fusion for Autonomous Rover SLAM
-- Open Vocabulary Semantic Segmentation for Robotic Navigation
 - Robot Pose Estimation with a Foundation Model
-- Low Rank Autoregressive Model Regularization and Hyperparameter Tuning
-- Object Detection with YOLO. 
-- AI Strategy Advisor with Vision-Language Models (current)
 - Radar scan to image regularization CNN (Summer 2025)
+- Low Rank Autoregressive Model Regularization and Hyperparameter Tuning
+- Open Vocabulary Semantic Segmentation for Robotic Navigation
+- AI Strategy Advisor with Vision-Language Models (current)
+- Object Detection with YOLO. 
 
 Papers that have inspired me: [CLIP](https://arxiv.org/abs/2103.00020), [CICERO](https://www.science.org/doi/10.1126/science.ade9097), [LLMs play Starcraft 2](https://arxiv.org/abs/2312.11865), [VLMaps](https://arxiv.org/pdf/2210.05714), [FoundationPose](https://nvlabs.github.io/FoundationPose/), [VINS-Mono/VINS-Fusion](https://ieeexplore.ieee.org/document/8421746), [AlphaStar](https://arxiv.org/pdf/2308.03526)
 
