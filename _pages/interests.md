@@ -7,6 +7,8 @@ redirect_from:
   - /interests.html
 ---
 
+I grew up studying Strategy, War History, Maps, and playing Games. These are still my main interests to this day. You can find places and maps that I like below. These interests inspire my work in Machine Learning and Computer Vision. Most of my projects are related to Multi-Modal Perception in autonomous systems, particularly tactical applications such as mapping, navigation, and scene understanding. I hope to work with geospatial data (map, satellite image, radar, etc.) to enhance perception further. Aside from all these intellectual pursuits, I also play basketball regularly with friends and follow the NBA, go Blazers.
+
 # Places
 
 <div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
@@ -48,7 +50,7 @@ redirect_from:
   </div>
   <div style="text-align: center;">
     <img src="/images/huntington.jpg" alt="huntingtonbeach" style="width: 100%; max-width: 500px;">
-    <p>LA, CA, USA</p>
+    <p>Huntington Beach, CA, USA</p>
   </div>
   <div style="text-align: center;">
     <img src="/images/grainger.jpg" alt="Grainger" style="width: 100%; max-width: 500px;">
