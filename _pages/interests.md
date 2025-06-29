@@ -49,10 +49,6 @@ I grew up studying Strategy, War History, Maps, and playing Games. These are sti
     <p>Griffith Observatory, CA, USA</p>
   </div>
   <div style="text-align: center;">
-    <img src="/images/huntington.jpg" alt="huntingtonbeach" style="width: 100%; max-width: 500px;">
-    <p>Huntington Beach, CA, USA</p>
-  </div>
-  <div style="text-align: center;">
     <img src="/images/grainger.jpg" alt="Grainger" style="width: 100%; max-width: 500px;">
     <p>Urbana-Champaign, IL, USA</p>
   </div>
