@@ -14,22 +14,6 @@ I am proficient in Python, Numpy, and PyTorch. I have exposure to many other lan
 2. Evaluating and Experimenting SOTA CVML Models and Algorithms
 3. Reproducing SOTA CVML Research
 
-Sandia National Laboratories
--	Voltage, Current Signal Anomaly Detection CNN
-- Geospatial Analytics Movement Anomaly Detection
-
-University of Washington
--	Synthetic Data Generation for Foundation Model Robot Pose Estimation
--	3D Open Vocabulary Semantic Segmentation for Robot Navigation
--	Image Processing for Fisheye Camera Image Object Detection
-- Evaluating Visual-Inertial-Lidar-Wheel Sensor Fusion SLAM
--	Regularization, Hyperparameter Tuning on Low Rank Autoregressive Models
-
-Personal Projects
-- Aerial Image Object Detection training FasterRCNN with torchvision
--	Image-Captioning Tactical Advisor Model
-
-
 Research papers that have inspired me: [CLIP](https://arxiv.org/abs/2103.00020), [VLMaps](https://arxiv.org/pdf/2210.05714), [CICERO](https://www.science.org/doi/10.1126/science.ade9097), [LLMs play Starcraft 2](https://arxiv.org/abs/2312.11865), [FoundationPose](https://nvlabs.github.io/FoundationPose/), [AlphaStar](https://arxiv.org/pdf/2308.03526)
 
 
