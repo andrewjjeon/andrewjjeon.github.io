@@ -3,7 +3,7 @@ title: "Evaluating Sensor Fusion Visual-Inertial SLAM Algorithms"
 collection: projects
 category: manuscripts
 permalink: /projects/foundation-pose-synthetic-data/
-image: /images/FposePanda100.gif
+image: /images/MINSurban28.gif
 ---
 
 <h2>Evaluating Sensor Fusion Visual-Inertial SLAM Algorithms</h2>

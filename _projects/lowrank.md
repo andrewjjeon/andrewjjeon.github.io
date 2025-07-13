@@ -3,7 +3,7 @@ title: "Regularization, Hyperparameter Tuning on Low Rank Autoregressive Models"
 collection: projects
 category: manuscripts
 permalink: /projects/foundation-pose-synthetic-data/
-image: /images/FposePanda100.gif
+image: /images/lowrankreg.png
 ---
 
 

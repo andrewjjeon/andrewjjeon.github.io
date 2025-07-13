@@ -3,7 +3,7 @@ title: "Image Processing for Fisheye Camera Image Object Detection"
 collection: projects
 category: manuscripts
 permalink: /projects/foundation-pose-synthetic-data/
-image: /images/FposePanda100.gif
+image: /images/after2.png
 ---
 
 

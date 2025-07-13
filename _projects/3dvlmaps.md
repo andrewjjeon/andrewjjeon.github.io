@@ -3,7 +3,7 @@ title: "3D Open Vocabulary Semantic Segmentation for Robot Navigation"
 collection: projects
 category: manuscripts
 permalink: /projects/foundation-pose-synthetic-data/
-image: /images/FposePanda100.gif
+image: /images/segresult.png
 ---
 
 
