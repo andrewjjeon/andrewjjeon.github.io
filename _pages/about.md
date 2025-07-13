@@ -25,12 +25,10 @@ to want to enhance automation with intelligence. This led to me receiving my Mas
 Currently, I am a Graduate R&D Machine Learning Intern at Sandia National Laboratories. Starting in September, I'll be a Post-Masters R&D Machine Learning Intern at Los Alamos National Laboratories.
 
 <br><br>
-
 <p align="left">
   <img src="/images/uiuc.jpg" alt="UIUC" width="100" style="margin: 10px;">
   <img src="/images/uw.jpg" alt="UW" width="100" style="margin: 10px;">
   <img src="/images/sandia.jpg" alt="Sandia" width="100" style="margin: 10px;">
   <img src="/images/lanl.jpg" alt="Los ALamos" width="100" style="margin: 10px;">
 </p>
-
 <br><br>

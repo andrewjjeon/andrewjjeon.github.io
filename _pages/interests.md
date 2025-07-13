@@ -7,7 +7,7 @@ redirect_from:
   - /interests.html
 ---
 
-I grew up studying Strategy, War History, Maps, and playing Games. These are still my main interests to this day. You can find places and maps that I like below. These interests inspire my work in Machine Learning and Computer Vision. Most of my projects are related to Multi-Modal Perception in autonomous systems, particularly tactical applications such as mapping, navigation, and scene understanding. I hope to work with geospatial data (map, satellite image, radar, etc.) to enhance perception further. Aside from all these intellectual pursuits, I also play basketball regularly with friends and follow the NBA, go Blazers.
+I enjoy playing Strategy Games, looking at Maps, and playing Basketball with friends. I often draw inspiration from these areas in my CVML work. Below you can see some places and maps I like.
 
 # Places
 
