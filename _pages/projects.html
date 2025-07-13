@@ -5,9 +5,23 @@ permalink: /projects/
 author_profile: true
 ---
 
+<h1>Projects</h1>
+
+<ul>
+  {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url | relative_url }}">
+        {{ project.title }}
+      </a>
+      {% if project.excerpt %}
+        <p>{{ project.excerpt }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
 
 
-
+<!-- 
 <h2>Sensor Fusion for Autonomous Rover Navigation</h2>
 
 <p>
@@ -232,4 +246,4 @@ author_profile: true
   <div style="text-align: center;">
     <img src="/images/yolov8.jpg" alt="YOLOv8s (small) validation set detections" style="max-width: 100%; height: auto;">
     <p>YOLOv8s validation set detections</p>
-  </div>
+  </div> -->
