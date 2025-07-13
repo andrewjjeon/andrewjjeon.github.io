@@ -22,28 +22,6 @@ author_profile: true
 
 
 <!-- 
-<h2>Sensor Fusion for Autonomous Rover Navigation</h2>
-
-<p>
-  I am leading the testing and evaluation of a sensor fusion inertial navigation system with 5 sensing modalities on a Rover with a solid-state LiDAR system.
-  I tuned navigation system and sensor parameters to achieve an Absolute Trajectory Error of 9.12091m across multi-kilometer trajectories. 
-
-  MINs is a Multisensor-aided Inertial Navigation System that can fuse up to 5 sensing modalities (IMU, wheel encoders, camera, GNSS, and LiDAR) 
-  in a Kalman Filter.<a href="https://github.com/rpng/mins" target="_blank">MINs</a> I have tuned MINs on public datasets such as the 
-  <a href="https://sites.google.com/view/complex-urban-dataset" target="_blank">KAIST Urban Dataset</a> as well as our labs rover runs.
-</p>
-
-
-<div style="display: flex; justify-content: center; gap: 5px; text-align: center;">
-  <div>
-    <img src="/images/MINSurban28.gif" alt="MINs on KAIST dataset" style="max-width: 80%; height: auto;">
-    <p>MINs on KAIST car dataset</p>
-  </div>
-  <div>
-    <img src="/images/rover0824.gif" alt="MINs on our rover data" style="max-width: 80%; height: auto;">
-    <p>MINs on actual rover</p>
-  </div>
-</div>
 
 
 
@@ -55,61 +33,6 @@ author_profile: true
 
 
 
-<h2>3D Semantic Segmentation for Robot Navigation</h2>
-
-<p>
-  VLMaps is a spatial map representation that embeds pretrained visual-language features with a 3D reconstruction
-  and projects to a top-down 2D map. VLMaps embeds visual features from an LSeg visual encoder to points in a point cloud. 
-  These points are then projected to a top-down navigation map where only the point with the highest height is kept. After 
-  this, the visual features are compared through cosine similarity to textual features from a LSeg text encoder to determine 
-  the semantic label of the point. Due to the top-down projection, the robot wouldn't be capable of 3D navigation such as 
-  “go to the plant below the table.” 
-  
-  Further details can be found in <a href="https://vlmaps.github.io/" target="_blank">VLMaps</a>
-</p>
-
-<p>
-  To address this limitation, I implemented a voxel grid projection by populating the voxel grid cells with their corresponding 
-  points. When multiple points fall in the same voxel cell I average all their embeddings to generate a singular embedding. 
-  This resulted in a best class segmentation accuracy of 0.907 and the robot being able to navigation in 3D as opposed to 2D.
-
-</p>
-
-<div style="text-align: center;">
-  <img src="/images/3dvlmaps_block.jpg" alt="Block Diagram" style="max-width: 100%; height: auto;">
-  <p>Block diagram of 3DVLMaps.</p>
-</div>
-
-
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="/images/segresult.png" alt="House 3D Segmentation Result" style="max-width: 49%; height: auto;">
-    <img src="/images/3dvlmaps_key.png" alt="House 3D Segmentation Key" style="max-width: 49%; height: auto;">
-  </div>
-  <p>3D segmentation demonstration of household scene.</p>
-</div>
-
-
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="/images/realsofa.png" alt="Real Sofa" style="max-width: 49%; height: auto;">
-    <img src="/images/seg_sofa.png" alt="Segmented Sofa" style="max-width: 49%; height: auto;">
-  </div>
-  <p>3D segmentation demonstration of sofa, comparison with real world point cloud</p>
-</div>
-
-
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="/images/table.png" alt="Table" style="max-width: 49%; height: auto;">
-    <img src="/images/tableseg.png" alt="Segmented Table" style="max-width: 49%; height: auto;">
-  </div>
-  <p>3D segmentation demonstration of Table, comparison with real world point cloud</p>
-</div>
-
-<p>
-  The couch segmentation had an accuracy of 0.827, the table had an accuracy of 0.832
-</p>
 
 <br><br>
 <br><br>
@@ -117,69 +40,11 @@ author_profile: true
 
 
 
-<h2>Low Rank Autoregressive Model Regularization and Tuning</h2>
-
-<p>
-  There is a strong need for techniques that minimize the amount of data needed to learn neural population dynamics 
-  due to experimental time and resource constraints. "Active learning of neural population dynamics using two-photon 
-  holographic optogenetics" is a NeurIPS 2024 paper that attempts to determine the most effective photostimulation 
-  patterns for identifying neural population dynamics. The goal is to select the neurons that have the most informative 
-  neural responses to inform a dynamical model of the neural population activity. 
-</p>
-<p>
-  The project’s active learning technique takes advantage of the low-rank structure of the neural population dynamics 
-  to determine the most informative photostimulation patterns. It uses SVD to create low rank autoregressive models 
-  that predict neural activity. I conducted various regularization and tuning experiments on these models. This resulted 
-  in 15-18% improvements (MSE) in model performance. 
-
-  Further details can be found in the paper <a href="https://arxiv.org/abs/2412.02529" 
-  target="_blank">Active learning of neural population dynamics</a>
-</p>
-
-
-<div style="text-align: center;">
-  <img src="/images/lowrankreg.png" alt="Full Rank, Low Rank, Low Rank w/ L2 Reg " style="max-width: 60%; height: auto;">
-  <p>Low Rank Stimulation Responses highlight the low latent dynamics of neural populations.</p>
-</div>
-
-
 <br><br>
 <br><br>
 
 
-<h2>Image Processing for Fisheye Camera Image Object Detection</h2>
 
-<p>
-  My team and I participated in the 2024 AI City Challenge Track 4 Fisheye Camera Object Detection Challenge. 
-  Fisheye cameras have a wide field of view, which allows them to capture wider scenes, but comes with image distortion
-  that can impede computer vision tasks. My main contribution to our team ensemble learning solution was using OpenCV image 
-  processing to transform the full training set of colored + nighttime images to all black&white and retraining the YOLO 
-  model on the transformed dataset. This resulted in 9% improved mAP object detection performance on night-time images 
-  in the test set.
-</p>
-
-<p>
-  Specifically, the images below powerfully show the improvement in performance my black&white image transformation and 
-  subsequent retraining achieved.
-</p>
-
-
-  <div style="text-align: center;">
-    <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="/images/before1.jpg" alt="Original Model Detections" style="max-width: 40%; height: auto;">
-      <img src="/images/after1.jpg" alt="Transformed Image Trained Model Detections" style="max-width: 40%; height: auto;">
-    </div>
-    <p>Original model detections vs Transformed Image model detections</p>
-  </div>
-  
-  
-  <div style="text-align: center;">
-    <div style="display: flex; justify-content: center; gap: 10px;">
-      <img src="/images/before2.png" alt="Original Model Detections" style="max-width: 40%; height: auto;">
-      <img src="/images/after2.png" alt="Transformed Image Trained Model Detections" style="max-width: 40%; height: auto;">
-    </div>
-    <p>Original model detections vs Transformed Image model detections</p>
-  </div>
 
 
 
