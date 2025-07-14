@@ -6,9 +6,6 @@ image: /images/segresult.png
 order: 2
 ---
 
-
-<h2>3D Open Vocabulary Semantic Segmentation for Robot Navigation</h2>
-
 <p>
   VLMaps is a spatial map representation that embeds pretrained visual-language features with a 3D reconstruction and projects to a top-down 2D map. VLMaps embeds visual features from an LSeg visual encoder to points in a point cloud. These points are then projected to a top-down navigation map where only the point with the highest height is kept. After this, the visual features are compared through cosine similarity to textual features from a LSeg text encoder to determine the semantic label of the point. Due to the top-down projection, the robot wouldn't be capable of 3D navigation such as “go to the plant below the table.” 
   

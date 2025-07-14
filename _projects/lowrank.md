@@ -6,9 +6,6 @@ image: /images/lowrankreg.png
 order: 5
 ---
 
-
-<h2>Regularization, Hyperparameter Tuning on Low Rank Autoregressive Models</h2>
-
 <p>
   There is a strong need for techniques that minimize the amount of data needed to learn neural population dynamics due to experimental time and resource constraints. "Active learning of neural population dynamics using two-photon holographic optogenetics" is a NeurIPS 2024 paper that attempts to determine the most effective photostimulation patterns for identifying neural population dynamics. The goal is to select the neurons that have the most informative neural responses to inform a dynamical model of the neural population activity. 
 </p>

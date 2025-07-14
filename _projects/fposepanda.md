@@ -6,8 +6,6 @@ image: /images/FposePanda100.gif
 order: 1
 ---
 
-<h2>Synthetic Data Generation for Foundation Model Pose Estimation</h2>
-
 <p>
   FoundationPose is a Unified foundation model for 6D pose estimation and tracking, 
   Further details can be found in <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose</a>

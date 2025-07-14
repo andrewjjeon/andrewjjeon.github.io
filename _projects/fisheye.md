@@ -7,8 +7,6 @@ order: 4
 ---
 
 
-<h2>Image Processing for Fisheye Camera Image Object Detection</h2>
-
 <p>
   My team and I participated in the 2024 AI City Challenge Track 4 Fisheye Camera Object Detection Challenge. Fisheye cameras have a wide field of view, which allows them to capture wider scenes, but comes with image distortion that can impede computer vision tasks. My main contribution to our team ensemble learning solution was using OpenCV image processing to transform the full training set of colored + nighttime images to all black&white and retraining the YOLO model on the transformed dataset. This resulted in 9% improved mAP object detection performance on night-time images in the test set.
 </p>

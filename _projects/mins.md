@@ -6,7 +6,6 @@ image: /images/MINSurban28.gif
 order: 3
 ---
 
-<h2>Evaluating Sensor Fusion Visual-Inertial SLAM Algorithms</h2>
 
 <p>
   I am leading the testing and evaluation of a sensor fusion inertial navigation system with 5 sensing modalities on a Rover with a solid-state LiDAR system.
