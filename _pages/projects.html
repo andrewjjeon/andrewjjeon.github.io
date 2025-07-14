@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 <div class="projects-grid">
-  {% for project in site.projects %}
+  {% assign sorted_projects = site.projects | sort: "order" %}
+  {% for project in sorted_projects %}
     <a href="{{ project.url | relative_url }}" class="project-card">
       {% if project.image %}
         <img src="{{ project.image }}" alt="{{ project.title }} screenshot" />
@@ -18,6 +19,7 @@ author_profile: true
     </a>
   {% endfor %}
 </div>
+
 
 
 

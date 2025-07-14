@@ -15,9 +15,7 @@ image: /images/segresult.png
 </p>
 
 <p>
-  To address this limitation, I implemented a voxel grid projection by populating the voxel grid cells with their corresponding 
-  points. When multiple points fall in the same voxel cell I average all their embeddings to generate a singular embedding. 
-  This resulted in a best class segmentation accuracy of 0.907 and the robot being able to navigation in 3D as opposed to 2D.
+  To address this limitation, I implemented a voxel grid projection by populating the voxel grid cells with their corresponding points. When multiple points fall in the same voxel cell I average all their embeddings to generate a singular embedding. This resulted in a best class segmentation accuracy of 0.907 and the robot being able to navigation in 3D as opposed to 2D.
 
 </p>
 
