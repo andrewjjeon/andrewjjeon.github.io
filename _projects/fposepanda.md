@@ -2,7 +2,7 @@
 title: "Synthetic Data Generation for Foundation Model Pose Estimation"
 collection: projects
 category: manuscripts
-permalink: /projects/foundation-pose-synthetic-data/
+permalink: /projects/fposepanda/
 image: /images/FposePanda100.gif
 ---
 
