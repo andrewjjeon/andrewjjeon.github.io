@@ -2,7 +2,6 @@
 title: "Image Processing for Fisheye Camera Image Object Detection"
 collection: projects
 category: manuscripts
-permalink: /projects/fisheye/
 image: /images/after2.png
 ---
 

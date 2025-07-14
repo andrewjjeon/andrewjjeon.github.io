@@ -189,7 +189,7 @@ kramdown:
 collections:
   projects:
     output: true
-    permalink: /projects/:title/
+    permalink: /projects/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
