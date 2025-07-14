@@ -3,6 +3,7 @@ title: "3D Open Vocabulary Semantic Segmentation for Robot Navigation"
 collection: projects
 category: manuscripts
 image: /images/segresult.png
+order: 2
 ---
 
 

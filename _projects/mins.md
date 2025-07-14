@@ -3,6 +3,7 @@ title: "Evaluating Sensor Fusion Visual-Inertial SLAM Algorithms"
 collection: projects
 category: manuscripts
 image: /images/MINSurban28.gif
+order: 3
 ---
 
 <h2>Evaluating Sensor Fusion Visual-Inertial SLAM Algorithms</h2>
