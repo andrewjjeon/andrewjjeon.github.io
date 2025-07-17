@@ -5,7 +5,110 @@ image: /images/FposePanda100.gif
 order: 1
 math: true
 ---
-<div class="Project-Header">
+
+
+
+
+<style>
+/* Add at the top of your Markdown */
+body {
+  background-color: #0e0e0e;
+  color: #dcdcdc;
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  background: rgba(30, 30, 30, 0.85);
+  border-radius: 16px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+}
+
+.card img {
+  border-radius: 12px;
+  max-width: 100%;
+  margin-top: 1rem;
+}
+
+h2, h3 {
+  color: #ffffff;
+  margin-top: 1.5rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+code {
+  background: #1e1e1e;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #ffd700;
+}
+</style>
+
+<div class="card">
+  <h2>🤖 Foundation Model Pose Estimation with Synthetic Data</h2>
+
+  <p>
+    Position and Orientation or "Pose" is a 4x4 matrix defining an object’s translation and rotation. Accurate robot pose estimation allows us to compute the relative transformation required for robotic grasping:
+  </p>
+
+  $$
+  T_R^O = T_C^O \times T_R^C
+  $$
+
+  $$
+  {T_C^R}^{-1} = T_R^C
+  $$
+
+  <p>
+    By using a <strong>foundation model</strong> like <code>FoundationPose</code> on synthetic data (rendered from <code>.urdf</code> and <code>.obj</code> files), we can estimate 6D poses without requiring real-world training data — enabling generalization across unseen robots and objects.
+  </p>
+
+  <p><strong>Goal:</strong> Run FoundationPose on both robot and object models to obtain precise 6D poses for grasp planning.</p>
+
+  <ul>
+    <li>🔁 Rotation Error: <strong>0.674°</strong></li>
+    <li>📍 Translation Error: <strong>0.655 mm</strong></li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>🔧 Block Diagram</h3>
+  <img src="/images/fpose/fp_block.JPG" alt="Block Diagram">
+</div>
+
+<div class="card">
+  <h3>🦾 Franka Panda + FoundationPose (Synthetic Data)</h3>
+  <img src="/images/fpose/FposePanda100.gif" alt="Franka Panda Demo">
+</div>
+
+<div class="card">
+  <h3>🍅 HOPE Dataset (Ketchup)</h3>
+  <img src="/images/fpose/fp_ketchup.gif" alt="Ketchup Demo">
+</div>
+
+<div class="card">
+  <h3>🧪 PyBullet Synthetic Outputs</h3>
+  <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+    <img src="/images/fpose/7.png" alt="RGB" style="width: 22%;">
+    <img src="/images/fpose/7m.png" alt="Mask" style="width: 22%;">
+    <img src="/images/fpose/7d.png" alt="Depth" style="width: 22%;">
+    <img src="/images/fpose/7gt.png" alt="GT Pose" style="width: 22%;">
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- <div class="Project-Header">
   <h2>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
 </div>
 
@@ -69,7 +172,7 @@ math: true
   <div class="col-sm-3"><img src="/images/fpose/7m.png" class="img-thumbnail" alt="mask"></div>
   <div class="col-sm-3"><img src="/images/fpose/7d.png" class="img-thumbnail" alt="depth"></div>
   <div class="col-sm-3"><img src="/images/fpose/7gt.png" class="img-thumbnail" alt="gt pose"></div>
-</div>
+</div> -->
 
 
 <!-- 
