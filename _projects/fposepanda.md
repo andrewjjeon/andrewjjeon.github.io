@@ -1,7 +1,7 @@
 ---
 title: "Synthetic Data Generation for Foundation Model Pose Estimation"
 collection: projects
-image: /images/FposePanda100.gif
+image: /images/fpose/FposePanda100.gif
 order: 1
 math: true
 ---
@@ -51,10 +51,13 @@ code {
 </style>
 
 <div class="card">
-  <h2>🤖 Foundation Model Pose Estimation with Synthetic Data</h2>
+  <h2>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
 
   <p>
-    Position and Orientation or "Pose" is a 4x4 matrix defining an object’s translation and rotation. Accurate robot pose estimation allows us to compute the relative transformation required for robotic grasping:
+    Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. Robot Pose Estimation is useful because if you can accurately predict where a robot and an object are and how they are oriented. In robotics this is useful, because if you have the two pose matrices for the robot and object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
+
+    Moreso if you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The system uses <code>.urdf</code> and <code>.obj</code> files 
+    to load robotic models, then renders <strong>RGB</strong>, <strong>Depth</strong>, and <strong>Binary Mask</strong> frames via virtual cameras. These serve as inputs to FoundationPose.
   </p>
 
   $$
