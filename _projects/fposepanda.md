@@ -65,8 +65,8 @@ code {
   <p><strong>Goal:</strong> Run FoundationPose on both robot and object models to obtain precise 6D poses for grasp planning.</p>
 
   <ul>
-    <li>🔁 Rotation Error: <strong>0.674°</strong></li>
-    <li>📍 Translation Error: <strong>0.655 mm</strong></li>
+    <li>Rotation Error: <strong>0.674°</strong></li>
+    <li>Translation Error: <strong>0.655 mm</strong></li>
   </ul>
 </div>
 
@@ -81,22 +81,22 @@ $$
 
 
 <div class="card">
-  <h3>🔧 Block Diagram</h3>
+  <h3>Block Diagram</h3>
   <img src="/images/fpose/fp_block.JPG" alt="Block Diagram">
 </div>
 
 <div class="card">
-  <h3>🦾 Franka Panda + FoundationPose (Synthetic Data)</h3>
+  <h3>Franka Panda + FoundationPose (Synthetic Data)</h3>
   <img src="/images/fpose/FposePanda100.gif" alt="Franka Panda Demo">
 </div>
 
 <div class="card">
-  <h3>🍅 HOPE Dataset (Ketchup)</h3>
+  <h3>HOPE Dataset (Ketchup)</h3>
   <img src="/images/fpose/fp_ketchup.gif" alt="Ketchup Demo">
 </div>
 
 <div class="card">
-  <h3>🧪 PyBullet Synthetic Outputs</h3>
+  <h3>PyBullet Synthetic Outputs</h3>
   <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
     <img src="/images/fpose/7.png" alt="RGB" style="width: 22%;">
     <img src="/images/fpose/7m.png" alt="Mask" style="width: 22%;">
