@@ -13,8 +13,13 @@ math: true
   <p>
     Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. Robot Pose Estimation is useful because if you can accurately predict where a robot and an object are and how they are oriented. In robotics this is useful, because if you have the two pose matrices for the robot and object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
     
-    $$ T_R^O = T_C^O \times T_R^C $$
-    $$ {T_C^R}^{-1} = T_R^C $$
+    $$
+    T_R^O = T_C^O \times T_R^C
+    $$
+
+    $$
+    {T_C^R}^{-1} = T_R^C
+    $$
 
     Moreso if you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The system uses <code>.urdf</code> and <code>.obj</code> files 
     to load robotic models, then renders <strong>RGB</strong>, <strong>Depth</strong>, and <strong>Binary Mask</strong> frames via virtual cameras. These serve as inputs to FoundationPose.
