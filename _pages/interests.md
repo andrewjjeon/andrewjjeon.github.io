@@ -7,7 +7,7 @@ redirect_from:
   - /interests.html
 ---
 
-I enjoy playing Strategy Games, looking at Maps, and playing Basketball with friends. I often draw inspiration from these areas in my CVML work. Below you can see some places and maps I like.
+I enjoy playing Strategy Games, studying Maps, and playing Basketball with friends. I often draw inspiration from these areas in my CVML work. Below you can see some places and maps I like.
 
 # Places
 
