@@ -7,8 +7,6 @@ math: true
 ---
 
 
-
-
 <style>
 /* Add at the top of your Markdown */
 body {
@@ -60,14 +58,6 @@ code {
     to load robotic models, then renders <strong>RGB</strong>, <strong>Depth</strong>, and <strong>Binary Mask</strong> frames via virtual cameras. These serve as inputs to FoundationPose.
   </p>
 
-  $$
-  T_R^O = T_C^O \times T_R^C
-  $$
-
-  $$
-  {T_C^R}^{-1} = T_R^C
-  $$
-
   <p>
     By using a <strong>foundation model</strong> like <code>FoundationPose</code> on synthetic data (rendered from <code>.urdf</code> and <code>.obj</code> files), we can estimate 6D poses without requiring real-world training data — enabling generalization across unseen robots and objects.
   </p>
@@ -79,6 +69,16 @@ code {
     <li>📍 Translation Error: <strong>0.655 mm</strong></li>
   </ul>
 </div>
+
+$$
+T_R^O = T_C^O \times T_R^C
+$$
+
+$$
+{T_C^R}^{-1} = T_R^C
+$$
+
+
 
 <div class="card">
   <h3>🔧 Block Diagram</h3>
