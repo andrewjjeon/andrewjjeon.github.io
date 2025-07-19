@@ -44,7 +44,7 @@ code {
   background: #1e1e1e;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
-  color: #000080;
+  color: #87CEFA;
 }
 </style>
 
