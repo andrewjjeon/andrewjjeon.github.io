@@ -8,7 +8,7 @@ math: true
 
 
 <style>
-/* Add at the top of your Markdown */
+
 body {
   background-color: #0e0e0e;
   color: #dcdcdc;
@@ -44,7 +44,7 @@ code {
   background: #1e1e1e;
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
-  color: #ffd700;
+  color: #000080;
 }
 </style>
 
