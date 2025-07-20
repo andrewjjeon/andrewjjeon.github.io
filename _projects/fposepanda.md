@@ -15,7 +15,7 @@ math: true
     <p>
     Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. In this project, Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and an object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
     
-    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 800px; height: auto;">
+    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 900px; height: auto;">
 
     $$T_R^O = T_C^O \times T_R^C$$
 
@@ -25,14 +25,20 @@ math: true
     </p>
 
     <p>
-    In order to predict pose correctly, FoundationPose needs several data inputs...
-    - RGB, Depth, Binary Mask Frames
-    - CAD Model <code>.obj</code>
-    - Camera Intrinsics Matrix
-    
-    In addition, for evaluation purposes we also need...
-    - Camera Frame Pose Annotations (Ground Truth)
+    In order to predict pose correctly, FoundationPose needs several data inputs:
     </p>
+    <ul>
+      <li>RGB, Depth, Binary Mask Frames</li>
+      <li>CAD Model <code>.obj</code></li>
+      <li>Camera Intrinsics Matrix</li>
+    </ul>
+    
+    <p>
+    In addition, for evaluation purposes we also need...
+    </p>
+    <ul>
+      <li>Camera Frame Pose Annotations (Ground Truth)</li>
+    </ul>
 
 
     <ul>
