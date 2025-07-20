@@ -8,7 +8,7 @@ order: 1
 math: true
 ---
 
-<div style="margin: 0 4rem;">
+<div style="margin: 0 8rem;">
   <div class="card">
     <h1>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
 
