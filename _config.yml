@@ -206,6 +206,9 @@ collections:
     permalink: /:collection/:path/
 
 
+category_pages:
+  projects: projects
+
 # These settings control how pages and collections are included in the site
 defaults:
   # _posts
