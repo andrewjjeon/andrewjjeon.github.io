@@ -13,8 +13,10 @@ math: true
     <h2>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
 
     <p>
-      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
+      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. In this project, Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and an object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
       
+      <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 1000px; height: auto;">
+
       $$T_R^O = T_C^O \times T_R^C$$
 
       $${T_C^R}^{-1} = T_R^C$$
@@ -35,8 +37,7 @@ math: true
 
 
   <div class="card">
-    <h3>Block Diagram of Proposed Grasping Pose Estimation Pipeline</h3>
-    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 700px; height: auto;">
+
   </div>
 
   <div class="card">
