@@ -11,18 +11,15 @@ math: true
 <div style="margin: 0 20rem;">
   <div class="card">
     <h1>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h1>
+      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. In this project, Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and an object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
+      
+      <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 900px; height: auto;">
 
-    <p>
-    Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. In this project, Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and an object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
-    
-    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 900px; height: auto;">
+      $$T_R^O = T_C^O \times T_R^C$$
 
-    $$T_R^O = T_C^O \times T_R^C$$
+      $${T_C^R}^{-1} = T_R^C$$
 
-    $${T_C^R}^{-1} = T_R^C$$
-
-    If you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The team that built <strong>FoundationPose</strong> had already proven it could work on household objects such as a mustard bottle and a driller. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" capability on robot data it hadn't seen was my goal. If you are curious about how FoundationPose was trained and other details please refer to the original work: <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose</a>
-    </p>
+      If you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The team that built <strong>FoundationPose</strong> had already proven it could work on household objects such as a mustard bottle and a driller. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" capability on robot data it hadn't seen was my goal. If you are curious about how FoundationPose was trained and other details please refer to the original work: <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose</a>
   </div>
 
 
