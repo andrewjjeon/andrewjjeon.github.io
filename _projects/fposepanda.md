@@ -49,20 +49,21 @@ math: true
     </p>
 
     <ol>
-      <li>Rendering a Robot inside of Pybullet:
-        <pre><code>robot_id = p.loadURDF(robot.urdf)</code></pre>
+      <li>Rendering a Robot inside of Pybullet:<br>
+        <code>robot_id = p.loadURDF(robot.urdf)</code>
       </li>
-      <li>Setting up a Virtual Camera and taking Images of the Robot: 
-        <pre><code>view_matrix = p.computeViewMatrix(camera_position, target_point, up_direction)</code></pre>
-        <pre><code>projection_matrix = p.computeProjectionMatrixFOV(fov=60, aspect=(w/h), nearclip, farclip)</code></pre>
-        <pre><code>image = p.getCameraImage(w, h, view_matrix, projection_matrix)</code></pre>
+      <li>Setting up a Virtual Camera and taking Images of the Robot: <br>
+        <code>view_matrix = p.computeViewMatrix(camera_position, target_point, up_direction)</code><br>
+        <code>projection_matrix = p.computeProjectionMatrixFOV(fov=60, aspect=(w/h), nearclip, farclip)</code><br>
+        <code>image = p.getCameraImage(w, h, view_matrix, projection_matrix)</code>
       </li>
-      <li>Getting Grouth Truth Pose Annotations: 
-        <pre><code>robot_world_pose = p.getLinkState(robot_id, link_index)</code></pre>
-        <pre><code>robot_camera_pose = view_matrix.T @ robot_world_pose</code></pre>
-        <pre><code>pose_image_coordinates = projection_matrix.T @ robot_camera_pose</code></pre>
+      <li>Getting Grouth Truth Pose Annotations:<br>
+        <code>robot_world_pose = p.getLinkState(robot_id, link_index)</code><br>
+        <code>robot_camera_pose = view_matrix.T @ robot_world_pose</code><br>
+        <code>pose_image_coordinates = projection_matrix.T @ robot_camera_pose</code>
       </li>
     </ol>
+
     
     <h3>PyBullet Virtual Camera Frames</h3>
     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
