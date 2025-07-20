@@ -1,4 +1,5 @@
 ---
+layout: page
 title: "Synthetic Data Generation for Foundation Model Pose Estimation"
 collection: projects
 image: /images/fpose/FposePanda100.gif
