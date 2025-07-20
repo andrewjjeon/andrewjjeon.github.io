@@ -19,7 +19,7 @@ math: true
 
       $${T_C^R}^{-1} = T_R^C$$
 
-      If you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" Grasping Capability was the goal of this project.
+      If you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The team that built <strong>FoundationPose</strong> had already proven it could work on household objects such as a mustard bottle and a driller. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" capability on robot data it hadn't seen was my goal.
     </p>
 
 
@@ -36,7 +36,7 @@ math: true
 
   <div class="card">
     <h3>Block Diagram of Proposed Grasping Pose Estimation Pipeline</h3>
-    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 300px; height: auto;">
+    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 700px; height: auto;">
   </div>
 
   <div class="card">
