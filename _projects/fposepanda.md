@@ -10,7 +10,7 @@ math: true
 
 <div style="margin: 0 8rem;">
   <div class="card">
-    <h1>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
+    <h1>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h1>
 
     <p>
     Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. In this project, Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and an object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
