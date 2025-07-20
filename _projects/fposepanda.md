@@ -49,64 +49,64 @@ code {
   color: #87CEFA;
 }
 </style> -->
+<div style="margin: 0 2rem;">
+  <div class="card">
+    <h2>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
 
-<div class="card">
-  <h2>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
+    <p>
+      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. Robot Pose Estimation is useful because if you can accurately predict where a robot and an object are and how they are oriented. In robotics this is useful, because if you have the two pose matrices for the robot and object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
 
-  <p>
-    Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. Robot Pose Estimation is useful because if you can accurately predict where a robot and an object are and how they are oriented. In robotics this is useful, because if you have the two pose matrices for the robot and object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
+      Moreso if you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The system uses <code>.urdf</code> and <code>.obj</code> files 
+      to load robotic models, then renders <strong>RGB</strong>, <strong>Depth</strong>, and <strong>Binary Mask</strong> frames via virtual cameras. These serve as inputs to FoundationPose.
+    </p>
 
-    Moreso if you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The system uses <code>.urdf</code> and <code>.obj</code> files 
-    to load robotic models, then renders <strong>RGB</strong>, <strong>Depth</strong>, and <strong>Binary Mask</strong> frames via virtual cameras. These serve as inputs to FoundationPose.
-  </p>
+    <p>
+      By using a <strong>foundation model</strong> like <code>FoundationPose</code> on synthetic data (rendered from <code>.urdf</code> and <code>.obj</code> files), we can estimate 6D poses without requiring real-world training data — enabling generalization across unseen robots and objects.
+    </p>
 
-  <p>
-    By using a <strong>foundation model</strong> like <code>FoundationPose</code> on synthetic data (rendered from <code>.urdf</code> and <code>.obj</code> files), we can estimate 6D poses without requiring real-world training data — enabling generalization across unseen robots and objects.
-  </p>
+    <p><strong>Goal:</strong> Run FoundationPose on both robot and object models to obtain precise 6D poses for grasp planning.</p>
 
-  <p><strong>Goal:</strong> Run FoundationPose on both robot and object models to obtain precise 6D poses for grasp planning.</p>
+    <ul>
+      <li>Rotation Error: <strong>0.674°</strong></li>
+      <li>Translation Error: <strong>0.655 mm</strong></li>
+    </ul>
+  </div>
 
-  <ul>
-    <li>Rotation Error: <strong>0.674°</strong></li>
-    <li>Translation Error: <strong>0.655 mm</strong></li>
-  </ul>
-</div>
+  $$
+  T_R^O = T_C^O \times T_R^C
+  $$
 
-$$
-T_R^O = T_C^O \times T_R^C
-$$
-
-$$
-{T_C^R}^{-1} = T_R^C
-$$
+  $$
+  {T_C^R}^{-1} = T_R^C
+  $$
 
 
 
-<div class="card">
-  <h3>Block Diagram</h3>
-  <img src="/images/fpose/fp_block.JPG" alt="Block Diagram">
-</div>
+  <div class="card">
+    <h3>Block Diagram</h3>
+    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram">
+  </div>
 
-<div class="card">
-  <h3>Franka Panda + FoundationPose (Synthetic Data)</h3>
-  <img src="/images/fpose/FposePanda100.gif" alt="Franka Panda Demo">
-</div>
+  <div class="card">
+    <h3>Franka Panda + FoundationPose (Synthetic Data)</h3>
+    <img src="/images/fpose/FposePanda100.gif" alt="Franka Panda Demo">
+  </div>
 
-<div class="card">
-  <h3>HOPE Dataset (Ketchup)</h3>
-  <img src="/images/fpose/fp_ketchup.gif" alt="Ketchup Demo">
-</div>
+  <div class="card">
+    <h3>HOPE Dataset (Ketchup)</h3>
+    <img src="/images/fpose/fp_ketchup.gif" alt="Ketchup Demo">
+  </div>
 
-<div class="card">
-  <h3>PyBullet Synthetic Outputs</h3>
-  <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-    <img src="/images/fpose/7.png" alt="RGB" style="width: 22%;">
-    <img src="/images/fpose/7m.png" alt="Mask" style="width: 22%;">
-    <img src="/images/fpose/7d.png" alt="Depth" style="width: 22%;">
-    <img src="/images/fpose/7gt.png" alt="GT Pose" style="width: 22%;">
+  <div class="card">
+    <h3>PyBullet Synthetic Outputs</h3>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <img src="/images/fpose/7.png" alt="RGB" style="width: 22%;">
+      <img src="/images/fpose/7m.png" alt="Mask" style="width: 22%;">
+      <img src="/images/fpose/7d.png" alt="Depth" style="width: 22%;">
+      <img src="/images/fpose/7gt.png" alt="GT Pose" style="width: 22%;">
+    </div>
   </div>
 </div>
-
 
 
 
