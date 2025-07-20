@@ -8,63 +8,21 @@ order: 1
 math: true
 ---
 
-
-<!-- <style>
-
-body {
-  background-color: #0e0e0e;
-  color: #dcdcdc;
-  font-family: 'Inter', sans-serif;
-}
-
-.card {
-  background: rgba(30, 30, 30, 0.85);
-  border-radius: 16px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(12px);
-}
-
-.card img {
-  border-radius: 12px;
-  max-width: 100%;
-  margin-top: 1rem;
-}
-
-h2, h3 {
-  color: #ffffff;
-  margin-top: 1.5rem;
-}
-
-ul {
-  padding-left: 1.2rem;
-}
-
-code {
-  background: #1e1e1e;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  color: #87CEFA;
-}
-</style> -->
-<div style="margin: 0 2rem;">
+<div style="margin: 0 4rem;">
   <div class="card">
     <h2>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
 
     <p>
-      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. Robot Pose Estimation is useful because if you can accurately predict where a robot and an object are and how they are oriented. In robotics this is useful, because if you have the two pose matrices for the robot and object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
+      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully. 
+      
+      $$T_R^O = T_C^O \times T_R^C$$
 
-      Moreso if you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The system uses <code>.urdf</code> and <code>.obj</code> files 
-      to load robotic models, then renders <strong>RGB</strong>, <strong>Depth</strong>, and <strong>Binary Mask</strong> frames via virtual cameras. These serve as inputs to FoundationPose.
+      $${T_C^R}^{-1} = T_R^C$$
+
+      If you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" Grasping Capability was the goal of this project.
     </p>
 
-    <p>
-      By using a <strong>foundation model</strong> like <code>FoundationPose</code> on synthetic data (rendered from <code>.urdf</code> and <code>.obj</code> files), we can estimate 6D poses without requiring real-world training data — enabling generalization across unseen robots and objects.
-    </p>
 
-    <p><strong>Goal:</strong> Run FoundationPose on both robot and object models to obtain precise 6D poses for grasp planning.</p>
 
     <ul>
       <li>Rotation Error: <strong>0.674°</strong></li>
@@ -72,19 +30,13 @@ code {
     </ul>
   </div>
 
-  $$
-  T_R^O = T_C^O \times T_R^C
-  $$
 
-  $$
-  {T_C^R}^{-1} = T_R^C
-  $$
 
 
 
   <div class="card">
-    <h3>Block Diagram</h3>
-    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram">
+    <h3>Block Diagram of Proposed Grasping Pose Estimation Pipeline</h3>
+    <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 300px; height: auto;">
   </div>
 
   <div class="card">
