@@ -8,7 +8,7 @@ math: true
 ---
 
 
-<style>
+<!-- <style>
 
 body {
   background-color: #0e0e0e;
@@ -47,7 +47,7 @@ code {
   border-radius: 4px;
   color: #87CEFA;
 }
-</style>
+</style> -->
 
 <div class="card">
   <h2>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h2>
