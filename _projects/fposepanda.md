@@ -2,6 +2,7 @@
 layout: page
 title: "Synthetic Data Generation for Foundation Model Pose Estimation"
 collection: projects
+category: projects
 image: /images/fpose/FposePanda100.gif
 order: 1
 math: true
