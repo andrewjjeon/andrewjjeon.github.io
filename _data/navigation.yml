@@ -6,7 +6,8 @@
 
 main:
   - title: "Projects"
-    url: /projects/  
+    url: /projects/
+    category: projects  
 
   - title: "Resume"
     url: /assets/25res.pdf
