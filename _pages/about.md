@@ -7,12 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am extremely passionate about and have a firm foundation in Machine Learning and Computer Vision. Much of my experience has fallen under the below 3 lines of work.
-I am proficient in Python, Numpy, and PyTorch. I have exposure to many other languages, libraries, and tools listed in my resume. I have grouped projects that I've worked on significantly below. 
-
-1. Modifying or Training Models for Various Applications
-2. Evaluating and Experimenting SOTA CVML Models and Algorithms
-3. Reproducing SOTA CVML Research
+I am extremely passionate about and have a firm foundation in Machine Learning and Computer Vision. Much of my experience is from Finetuning, Training, and Evaluating SOTA CVML Models and Algorithms for Various Applications. I am proficient in Python, Numpy, and PyTorch. I have exposure to many other languages, libraries, and tools listed in my resume.
 
 Research papers that have inspired me: [CLIP](https://arxiv.org/abs/2103.00020), [VLMaps](https://arxiv.org/pdf/2210.05714), [CICERO](https://www.science.org/doi/10.1126/science.ade9097), [LLMs play Starcraft 2](https://arxiv.org/abs/2312.11865), [FoundationPose](https://nvlabs.github.io/FoundationPose/), [AlphaStar](https://arxiv.org/pdf/2308.03526)
 
