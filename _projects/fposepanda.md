@@ -26,13 +26,14 @@ math: true
   <div class="card">
     <h2>2. Model Architecture</h2>
       <img src="/images/fpose/fpose_architecture.png" alt="FoundationPose Architecture"><br>
+      3.1 Language-aided Synthetic Data Generation at Scale
+      <ul>
+        <li>Rendered 5 million images of 41k CAD models from Objaverse</li>
+        <li>Prompted ChatGPT --> describe possible appearance of object</li>
+        <li>Prompted Diffusion Model --> texture synthesis</li>
+      </ul>
 
-      2.1 Synthetic Data Generation
-      - Pretrained on 5 million rendered images of 41k CAD models from Objaverse
-      - Prompt ChatGPT --> describe possible appearance of object
-      - Prompt Diffusion Model --> texture synthesis
-
-      2.2 Pose Hypothesis
+      3.3 Pose Hypothesis
       2.2.1 Pose Initialization
       - Initialize translation --> 3D point in middle of BB and median depth
       - Initialize rotation --> sample viewpoints from icosphere, augment with discrete rotations
@@ -59,14 +60,12 @@ math: true
 
   <div class="card">
     <h2>3. Synthetic Robot Data Generation</h2>
-    <p>
-    In order to predict pose correctly, FoundationPose needs several data inputs:
-    </p>
-    <ul>
-      <li>RGB, Depth, Binary Mask Frames</li>
-      <li>CAD Model <code>.obj</code></li>
-      <li>Camera Intrinsics Matrix</li>
-    </ul>
+      In order to predict pose correctly, FoundationPose needs several data inputs:
+      <ul>
+        <li>RGB, Depth, Binary Mask Frames</li>
+        <li>CAD Model <code>.obj</code></li>
+        <li>Camera Intrinsics Matrix</li>
+      </ul>
   
     <p>
     In addition, for evaluation purposes we also need:
