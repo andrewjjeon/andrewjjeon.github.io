@@ -21,6 +21,7 @@ math: true
       $${T_C^R}^{-1} = T_R^C$$
 
       If you can perform accurate robot pose estimation using a foundation model. You should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on, by leveraging the powerful open-vocabulary capabilities of foundation models that were pretrained on massive datasets. The team that built <strong>FoundationPose</strong> had already proven it could work on household objects such as a mustard bottle and a driller. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" capability on robot data it hadn't seen was my goal. I will briefly cover FoundationPose's architecture and training details, but for more, please refer to the original work: <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose</a>
+
   </div>
 
   <div class="card">
