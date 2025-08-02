@@ -11,7 +11,8 @@ math: true
 <div style="max-width: 1200px; margin: 0 auto; padding: 1rem;">
   <div class="card">
     <h1>Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Generation</h1>
-      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. In this project, Robot Pose Estimation is useful because if you can accurately predict the two pose matrices for the robot and an object, you should be able to calculate a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully.<br>
+    <h2>1. Introduction</h2>
+      Position and Orientation or "Pose" is a 4x4 matrix that defines the translation or "position" and rotation or "orientation" of an object. One reason to care about Robot Pose Estimation is because accurate prediction of the two pose matrices for the robot and an object, enables calculation of a "relative grasp" transform that describes how the robot should position itself to grasp the object successfully.<br>
       
       <img src="/images/fpose/fp_block.JPG" alt="Block Diagram" style="width: 900px; height: auto;">
 
@@ -19,12 +20,45 @@ math: true
 
       $${T_C^R}^{-1} = T_R^C$$
 
-      If you can perform accurate robot pose estimation using a foundation model that wasn't explicitly trained on your robot, you should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on. The team that built <strong>FoundationPose</strong> had already proven it could work on household objects such as a mustard bottle and a driller. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" capability on robot data it hadn't seen was my goal. If you are curious about how FoundationPose was trained and other details please refer to the original work: <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose</a>
+      If you can perform accurate robot pose estimation using a foundation model. You should be able to grasp items that the model wasn't trained on with robots the model wasn't trained on, by leveraging the powerful open-vocabulary capabilities of foundation models that were pretrained on massive datasets. The team that built <strong>FoundationPose</strong> had already proven it could work on household objects such as a mustard bottle and a driller. Proving that the foundation model, <strong>FoundationPose</strong> has this "Open-Vocabulary" capability on robot data it hadn't seen was my goal. I will briefly cover FoundationPose's architecture and training details, but for more, please refer to the original work: <a href="https://nvlabs.github.io/FoundationPose/" target="_blank">FoundationPose</a>
   </div>
 
+  <div class="card">
+    <h2>2. Model Architecture</h2>
+      <img src="/images/fpose/fpose_architecture.png" alt="FoundationPose Architecture"><br>
+
+      2.1 Synthetic Data Generation
+      - Pretrained on 5 million rendered images of 41k CAD models from Objaverse
+      - Prompt ChatGPT --> describe possible appearance of object
+      - Prompt Diffusion Model --> texture synthesis
+
+      2.2 Pose Hypothesis
+      2.2.1 Pose Initialization
+      - Initialize translation --> 3D point in middle of BB and median depth
+      - Initialize rotation --> sample viewpoints from icosphere, augment with discrete rotations
+      2.2.2 Pose Refinement 
+      - Multiple guess/rendered image
+      - Coarse pose guess --> render image of obj with that guess
+      - Real rendered image
+      - Network trained on ∆t and ∆r between two
+      $$\mathcal{L}_{\text{refine}} = w_1 \left\| \Delta \mathbf{t} - \Delta \bar{\mathbf{t}} \right\|_2 + w_2 \left\| \Delta \mathbf{R} - \Delta \bar{\mathbf{R}} \right\|_2$$
+
+
+      2.3 Pose Selection – score refined poses
+      - Pose Refinement Network --> F alignment score vector per guess
+      - Stack all F -->  multi-headed self attention --> guesses compare with each other who more aligned --> S has scores for all guesses
+      - Select pose with highest score as final prediction
+      - Triplet Loss – penalize bad guess, don't penalize good guess
+
+      $$\mathcal{L}(i^+, i^-) = \max \left( \mathbf{S}(i^-) - \mathbf{S}(i^+) + \alpha,\, 0 \right)$$
+
+
+
+
+  </div>
 
   <div class="card">
-    <h2>Synthetic Robot Data Generation</h2>
+    <h2>3. Synthetic Robot Data Generation</h2>
     <p>
     In order to predict pose correctly, FoundationPose needs several data inputs:
     </p>
