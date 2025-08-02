@@ -49,7 +49,7 @@ math: true
         $$\mathcal{L}_{\text{refine}} = w_1 \left\| \Delta \mathbf{t} - \Delta \bar{\mathbf{t}} \right\|_2 + w_2 \left\| \Delta \mathbf{R} - \Delta \bar{\mathbf{R}} \right\|_2$$
 
 
-      2.4 Pose Selection – Score the refined poses.
+      2.4 Pose Selection - Score the refined poses.
         <ul>
           <li>The Pose Refinement Network outputs an F alignment score vector per guess that describes the alignment between the refined guess from above and the real rendered image.</li>
           <li>Concatenate all F alignment score vectors per guesses. Linear project this vector to S. Perform multi-headed self attention on this vector so the guesses can compare with each other to see who is more aligned.</li>
@@ -61,7 +61,7 @@ math: true
 
   <div class="card">
     <h2>3. Synthetic Robot Data Generation</h2>
-      In order to predict pose correctly, FoundationPose needs several data inputs:
+      Now that we have an idea of how the model was trained, let's get back to what I actually did. In order to predict pose correctly, FoundationPose needs several data inputs:
       <ul>
         <li>RGB, Depth, Binary Mask Frames</li>
         <li>CAD Model <code>.obj</code></li>
