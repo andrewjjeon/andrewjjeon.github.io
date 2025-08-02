@@ -26,36 +26,37 @@ math: true
   <div class="card">
     <h2>2. Model Architecture</h2>
       <img src="/images/fpose/fpose_architecture.png" alt="FoundationPose Architecture"><br>
-      3.1 Language-aided Synthetic Data Generation at Scale
+      2.1 Language-aided Synthetic Data Generation at Scale
       <ul>
         <li>Rendered 5 million images of 41k CAD models from Objaverse</li>
         <li>Prompted ChatGPT --> describe possible appearance of object</li>
         <li>Prompted Diffusion Model --> texture synthesis</li>
       </ul>
 
-      3.3 Pose Hypothesis
-      2.2.1 Pose Initialization
-      - Initialize translation --> 3D point in middle of BB and median depth
-      - Initialize rotation --> sample viewpoints from icosphere, augment with discrete rotations
-      2.2.2 Pose Refinement 
-      - Multiple guess/rendered image
-      - Coarse pose guess --> render image of obj with that guess
-      - Real rendered image
-      - Network trained on ∆t and ∆r between two
-      $$\mathcal{L}_{\text{refine}} = w_1 \left\| \Delta \mathbf{t} - \Delta \bar{\mathbf{t}} \right\|_2 + w_2 \left\| \Delta \mathbf{R} - \Delta \bar{\mathbf{R}} \right\|_2$$
+      2.3 Pose Hypothesis Generation - Make pose guesses and refine them. <br>
+      2.3.1 Pose Initialization
+        <ul>
+          <li>Initialize translation by running out of box object detection on the object and picking a 3D point in middle of BB and median depth distance away.</li>
+          <li>Initialize rotation by sampling viewpoints from icosphere and augmenting with discrete rotations.</li>
+        </ul>
+
+      2.3.2 Pose Refinement 
+        <ul>
+          <li>Take the coarse pose guess and render the image of the object with that guess.</li>
+          <li>Get the real rendered image.</li>
+          <li>Network trained on ∆t and ∆r between coarse guess and rendered image with refinement loss below.</li>
+        </ul>
+        $$\mathcal{L}_{\text{refine}} = w_1 \left\| \Delta \mathbf{t} - \Delta \bar{\mathbf{t}} \right\|_2 + w_2 \left\| \Delta \mathbf{R} - \Delta \bar{\mathbf{R}} \right\|_2$$
 
 
-      2.3 Pose Selection – score refined poses
-      - Pose Refinement Network --> F alignment score vector per guess
-      - Stack all F -->  multi-headed self attention --> guesses compare with each other who more aligned --> S has scores for all guesses
-      - Select pose with highest score as final prediction
-      - Triplet Loss – penalize bad guess, don't penalize good guess
-
-      $$\mathcal{L}(i^+, i^-) = \max \left( \mathbf{S}(i^-) - \mathbf{S}(i^+) + \alpha,\, 0 \right)$$
-
-
-
-
+      2.4 Pose Selection – Score the refined poses.
+        <ul>
+          <li>The Pose Refinement Network outputs an F alignment score vector per guess that describes the alignment between the refined guess from above and the real rendered image.</li>
+          <li>Concatenate all F alignment score vectors per guesses. Linear project this vector to S. Perform multi-headed self attention on this vector so the guesses can compare with each other to see who is more aligned.</li>
+          <li>Select the pose with highest score as final prediction.</li>
+          <li>Train the pose selection network with the Triplet Loss below which penalizes bad guesses and doesn't penalize good guesses.</li>
+        </ul>
+        $$\mathcal{L}(i^+, i^-) = \max \left( \mathbf{S}(i^-) - \mathbf{S}(i^+) + \alpha,\, 0 \right)$$
   </div>
 
   <div class="card">
@@ -107,7 +108,7 @@ math: true
 
 
   <div class="card">
-    <h2>Evaluation</h2>
+    <h2>4. Evaluation</h2>
       Now, with my Synthetic Data, all that was left to do was to run FoundationPose on and get the robot pose estimates for my synthetic data. Once I had these predictions, I then evaluated against the pose annotations I generated earlier. However, there was one last additional transform I needed to perform here to make the poses line up reasonably. After much searching, I found that Pybullet follows the OpenGL coordinate system which defines the Y and Z axes to the inverse of how OpenCV defines them. Our foundation model or FoundationPose follows the OpenCV system while our synthetic data follows the OpenGL system. I therefore had to run my annotations through one last transform where I inversed the Y and Z axes so our pose predictions and annotations lined up reasonably well. Finally, I evaluated the Translation component of the pose with Euclidean Distance and the Rotation component with Angular/Geodesic Error. I got reasonably good results with translation error being less than 1mm off and rotation being less than 1 degree off.<br>
       
       <img src="/images/fpose/FposePanda100.gif" alt="Franka Panda Demo"><br>
