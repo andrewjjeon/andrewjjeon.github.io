@@ -97,7 +97,8 @@ math: true
     </ol>
 
     
-    <h3>PyBullet Virtual Camera Frames</h3>
+    <h3>Pybullet Synthetic Data Generation</h3>
+    <img src="/images/fpose/synthetic_data_generation.png" alt="FoundationPose Architecture"><br>
     <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
       <img src="/images/fpose/7.png" alt="RGB" style="width: 22%;">
       <img src="/images/fpose/7m.png" alt="Mask" style="width: 22%;">
