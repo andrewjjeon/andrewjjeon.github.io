@@ -13,7 +13,7 @@ I enjoy thinking about strategy in games, maps, geopolitics, and technology. I a
 # Maps
 
 <div style="text-align: center;">
-  <img src="/images/gdpmap.PNG" alt="gdpmap2021" style="width: 100%; max-width: 1000px;">
+  <img src="/images/gdpmap.PNG" alt="gdpmap2021" style="width: 100%; max-width: 2000px;">
   <p>GDP Cartogram of the World 2021</p>
 </div>
 
