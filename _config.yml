@@ -192,9 +192,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  teaching:
+  interests:
     output: true
-    permalink: /:collection/:path/
+    permalink: /interests/:path/
   publications:
     output: true
     permalink: /:collection/:path/
