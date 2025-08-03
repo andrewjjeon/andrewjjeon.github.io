@@ -49,8 +49,8 @@ I enjoy thinking about strategy in games, maps, geopolitics, and technology. I a
 
 
 <div class="interests-grid">
-  {% assign sorted_interestss = site.interestss | sort: "order" %}
-  {% for interests in sorted_interestss %}
+  {% assign sorted_interests = site.interests | sort: "order" %}
+  {% for interests in sorted_interests %}
     <a href="{{ interests.url | relative_url }}" class="interests-card">
       <h3>{{ interests.title }}</h3>
       {% if interests.image %}
