@@ -11,13 +11,14 @@ I enjoy thinking about strategy in games, maps, geopolitics, and technology. I a
 
 
 # Maps
-<div style="display: grid; grid-template-columns: repeat(3, 500px); gap: 20px;">
-  <div style="text-align: center;">
-    <img src="/images/gdpmap.png" alt="gdpmap2021" style="width: 100%; max-width: 1000px;">
-    <p>GDP Cartogram of the World 2021</p>
-  </div>
-  <div style="text-align: center;">
-    <img src="/images/megaregions.png" alt="Megaregions" style="width: 100%; max-width: 1000px;">
-    <p>Emerging Megaregions in USA</p>
-  </div>
+
+<div style="text-align: center;">
+  <img src="/images/gdpmap.png" alt="gdpmap2021" style="width: 100%; max-width: 1000px;">
+  <p>GDP Cartogram of the World 2021</p>
 </div>
+
+<div style="text-align: center;">
+  <img src="/images/megaregions.png" alt="Megaregions" style="width: 100%; max-width: 1000px;">
+  <p>Emerging Megaregions in USA</p>
+</div>
+
