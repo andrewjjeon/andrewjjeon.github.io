@@ -2,6 +2,7 @@
 permalink: /interests/
 title: "Interests"
 author_profile: true
+layout: wide
 redirect_from: 
   - /interests/
   - /interests.html
