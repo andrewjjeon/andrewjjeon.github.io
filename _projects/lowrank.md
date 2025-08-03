@@ -2,7 +2,7 @@
 title: "Regularization, Hyperparameter Tuning on Low Rank Autoregressive Models"
 collection: projects
 category: manuscripts
-image: /images/lowrankreg.png
+image: /lowrank/lowrank_reg.png
 order: 5
 ---
 
