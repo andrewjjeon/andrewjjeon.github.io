@@ -19,7 +19,7 @@ order: 5
 
       Some motivation for why is that there is a strong need for techniques that minimize the amount of data needed to learn neural population dynamics due to experimental time and resource constraints. The long-term goal that the above paper is working towards is for a model to be able to actively learn the patterns of neurons that have the most informative neural responses to quickly learn the neural population dynamics (brain activity).
 
-      This project used experimental data where a region of a mice brain was photostimulated with a laser. Specifically, patterns of neurons were photostimulated and the rest of region neuron's response (spikes) to that stimulation was recorded. 
+      This project used experimental data where a region of a mice brain was photostimulated with a laser. Specifically, patterns of neurons were photostimulated and the rest of region neuron's response (spikes) to that stimulation was recorded.<br>
 
       <img src="/images/lowrank/spikes_detected.png" width="400" />
       <p>Spikes were determined as signal responses that were 6x greater than the baseline noise of the signal.</p>
@@ -40,12 +40,16 @@ order: 5
       - k (number of autoregressive time steps used to make prediction)
       My best model resulted in a 25% improvement in performance (MSE) over the baselines the team had before I came on.
 
-<div style="text-align:center">
-  <img src="/images/lowrank/mse_improvement.png" width="250" style="vertical-align: top; margin-right:20px;" />
-  <img src="/images/lowrank/roc_curves.png" width="250" style="vertical-align: top; margin-right:20px;" />
+    <div style="text-align:center">
+      <img src="/images/lowrank/mse_improvement.png" width="250" style="vertical-align: top; margin-right:20px;" />
+      <img src="/images/lowrank/roc_curves.png" width="250" style="vertical-align: top; margin-right:20px;" />
+    </div>
+    <p>Best Model Performances</p>
+
+        
+    <img src="/images/lowrank/lowrank_reg.png" width="500" style="vertical-align: top;" />
+    <p>A comparison of the spike predictions of the closed-form, full-rank model, and low-rank model.</p>
+  </div>
+
+
 </div>
-<p>Best Model Performances</p>
-
-
-<img src="/images/lowrank/lowrank_reg.png" width="500" style="vertical-align: top;" />
-<p>A comparison of the spike predictions of the closed-form, full-rank model, and low-rank model.</p>
