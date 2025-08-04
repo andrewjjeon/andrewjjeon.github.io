@@ -1,12 +1,12 @@
 ---
+layout: page
 title: "Regularization, Hyperparameter Tuning on Low Rank Autoregressive Models"
 collection: projects
-category: manuscripts
+category: projects
 image: /images/lowrank/lowrank_reg.png
 order: 5
+math: true
 ---
-
-
 
 
 
@@ -33,21 +33,22 @@ order: 5
   <div class="card">
     <h2>2. L2 Regularization and Hyperparameter Tuning</h2>
       These Low Rank Models are the models I was tasked with experimenting on. I used cross validation loops to tune hyperparameters such as... 
-      - Lambda (L2 Regularization strength)  
-      - Epochs  
-      - Learning Rate  
-      - Weight Initialization  
-      - k (number of autoregressive time steps used to make prediction)
+      <ul>
+        <li>Lambda (L2 Regularization strength)</li>
+        <li>Epochs</li>
+        <li>Learning Rate </li>
+        <li>Weight Initialization</li>
+        <li>k (number of autoregressive time steps used to make prediction)</li>
+      </ul>
       My best model resulted in a 25% improvement in performance (MSE) over the baselines the team had before I came on.
 
-    <div style="text-align:center">
-      <img src="/images/lowrank/mse_improvement.png" width="250" style="vertical-align: top; margin-right:20px;" />
-      <img src="/images/lowrank/roc_curves.png" width="250" style="vertical-align: top; margin-right:20px;" />
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <img src="/images/lowrank/mse_improvement.png" alt="MSE" style="width: 50%;">
+      <img src="/images/lowrank/roc_curves.png" alt="ROC" style="width: 50%;">
     </div>
     <p>Best Model Performances</p>
 
-        
-    <img src="/images/lowrank/lowrank_reg.png" width="500" style="vertical-align: top;" />
+    <img src="/images/lowrank/lowrank_reg.png">
     <p>A comparison of the spike predictions of the closed-form, full-rank model, and low-rank model.</p>
   </div>
 
