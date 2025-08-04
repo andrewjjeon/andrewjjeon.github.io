@@ -43,8 +43,8 @@ math: true
       My best model resulted in a 25% improvement in performance (MSE) over the baselines the team had before I came on.
 
     <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-      <img src="/images/lowrank/mse_improvement.png" width="300" />
-      <img src="/images/lowrank/roc_curves.png" width="600" />
+      <img src="/images/lowrank/mse_improvement.png" width="300" style="height: auto;" />
+      <img src="/images/lowrank/roc_curves.png" width="600" style="height: auto;" />
     </div>
 
     <p>Best Model Performances</p>
