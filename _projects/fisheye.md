@@ -30,30 +30,30 @@ math: true
       I then use the Ultralytics package to load and train a yolov8m detector on the original dataset and my transformed dataset. I then trained and compared the validation set performance of the detector trained on the original data and the detector trained on my transformed data. There was a 10% improvement in mAP50-95 for all classes and a 6% improvement in mAP50 in model performance.
 
       <div align="center">
-        <img src="images/yolo/yolo_results.png" width="400" />
+        <img src="/images/yolo/yolo_results.png" width="400" />
         <p><em>Above: Performance of detector trained on original data. Below: Performance of detector trained on my transformed data.</em></p>
       </div>
 
       <div style="display: flex; justify-content: center; gap: 20px;">
         <div style="text-align: center;">
-          <img src="images/yolo/before1.png" width="500"/>
+          <img src="/images/yolo/before1.jpg" width="500"/>
           <p><em>Detector Trained on Original Data Inference</em></p>
         </div>
 
         <div style="text-align: center;">
-          <img src="images/yolo/after1.png" width="500"/>
+          <img src="/images/yolo/after1.jpg" width="500"/>
           <p><em>Detector Trained on Transformed Data Inference</em></p>
         </div>
       </div>
 
       <div style="display: flex; justify-content: center; gap: 20px;">
         <div style="text-align: center;">
-          <img src="images/yolo/before2.png" width="500"/>
+          <img src="/images/yolo/before2.png" width="500"/>
           <p><em>Detector Trained on Original Data Inference</em></p>
         </div>
 
         <div style="text-align: center;">
-          <img src="images/yolo/after2.png" width="500"/>
+          <img src="/images/yolo/after2.png" width="500"/>
           <p><em>Detector Trained on Transformed Data Inference</em></p>
         </div>
       </div>
