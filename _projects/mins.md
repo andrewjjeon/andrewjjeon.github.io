@@ -33,7 +33,7 @@ math: true
       MINS already had evaluation code that worked with minimal tuning and setup. Absolute Trajectory Error, a formulation of which can be found below, was used to evaluate the SLAM trajectories. I achieved a 9.12m ATE on an 11km KAIST Urban Trajectory and a 1.1m ATE on our 1km Lab rover trajectory.
 
       $$
-      \text{ATE\_RMSE} = \sqrt{ \frac{1}{N} \sum_{i=1}^{N} \left\| P_{i}^{est} - P_{i}^{gt} \right\|^2 }
+      ATE_RMSE = \sqrt{ \frac{1}{N} \sum_{i=1}^{N} \left\| P_{i}^{est} - P_{i}^{gt} \right\|^2 }
       $$
 
 
