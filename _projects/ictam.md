@@ -24,12 +24,12 @@ math: true
 
       <div style="display: flex; justify-content: center; gap: 20px;">
         <div style="text-align: center;">
-          <img src="/images/ictam/art11_016.jpg" width="400" />
+          <img src="/images/ictam/art11_016.jpg" width="200"/>
           <p><em>Sample Frame</em></p>
         </div>
 
         <div style="text-align: center;">
-          <img src="/images/ictam/example_caption.png" width="400" />
+          <img src="/images/ictam/example_caption.png" width="600"/>
           <p><em>Sample Caption</em></p>
         </div>
       </div>
@@ -40,7 +40,7 @@ math: true
       I did an 80-10-10 train-val-test split on my image-caption pairs. I then trained the BLIPConditionalGeneration model with the HuggingFace Trainer. This model was trained with a cross-entropy loss that compares a sequence of tokens against that same sequence shifted forward.
 
       <div align="center">
-        <img src="/images/TrainingLossCurve.png" width="400" />
+        <img src="/images/ictam/TrainingLossCurve.png" width="400"/>
         <p><em>Train-Validation Loss Curves (validation only starts after the first epoch)</em></p>
       </div>
   </div>
@@ -50,18 +50,18 @@ math: true
       I evaluated the % of correct tactical judgement from BLIP by parsing the caption string, and creating a list of just the winner prediction before the ".". I then compared this list against the same list from the actual captions. ICTAM successfully identifies the "winning player color" 80% of the time across multiple test trials with the test dataset which ICTAM had not been trained on.
       <div style="display: flex; justify-content: center; gap: 20px;">
         <div style="text-align: center;">
-          <img src="images/ictam/blip-image-captioning-base_image_caption.png" width="400" />
+          <img src="/images/ictam/blip-image-captioning-base_image_caption.png" width="400"/>
           <p><em>blip-base caption inference result</em></p>
         </div>
 
         <div style="text-align: center;">
-          <img src="/images/ictam/blip-finetuned-model_image_caption.png" width="400" />
+          <img src="/images/ictam/blip-finetuned-model_image_caption.png" width="400"/>
           <p><em>blip-finetuned caption inference result</em></p>
         </div>
       </div>
 
       <div style="text-align: center;">
-        <img src="/images/ictam/ictam_eval.png" width="400" />
+        <img src="/images/ictam/ictam_eval.png" width="400"/>
         <p><em>ICTAM Tactical Judgement Accuracy</em></p>
       </div>
 
