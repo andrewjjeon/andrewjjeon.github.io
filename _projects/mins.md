@@ -59,5 +59,7 @@ math: true
           <p><em>Complete Ground Truth Trajectory of KAIST Urban28</em></p>
         </div>
       </div>
+
+      You can compare MIN's SLAM trajectory with its corresponding ground truth trajectory above.
   </div>
 </div>
