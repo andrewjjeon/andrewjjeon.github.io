@@ -36,24 +36,24 @@ math: true
 
       <div style="display: flex; justify-content: center; gap: 20px;">
         <div style="text-align: center;">
-          <img src="/images/yolo/before1.png" width="500"/>
+          <img src="images/yolo/before1.png" width="500"/>
           <p><em>Detector Trained on Original Data Inference</em></p>
         </div>
 
         <div style="text-align: center;">
-          <img src="/images/yolo/after1.png" width="500"/>
+          <img src="images/yolo/after1.png" width="500"/>
           <p><em>Detector Trained on Transformed Data Inference</em></p>
         </div>
       </div>
 
       <div style="display: flex; justify-content: center; gap: 20px;">
         <div style="text-align: center;">
-          <img src="/images/yolo/before2.png" width="500"/>
+          <img src="images/yolo/before2.png" width="500"/>
           <p><em>Detector Trained on Original Data Inference</em></p>
         </div>
 
         <div style="text-align: center;">
-          <img src="/images/yolo/after2.png" width="500"/>
+          <img src="images/yolo/after2.png" width="500"/>
           <p><em>Detector Trained on Transformed Data Inference</em></p>
         </div>
       </div>
