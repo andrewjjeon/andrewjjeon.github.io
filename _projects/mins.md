@@ -12,8 +12,7 @@ math: true
   <div class="card">
     <h1>Evaluating Multisensor-aided Inertial Navigation System (MINS)</h1>
     <h2>1. Introduction</h2>
-      <a href="https://github.com/rpng/MINS">MINS</a> is a multisensor sensor fusion slam system capable of fusing IMU, camera, LiDAR, GPS, and wheel sensors.
-      and <a href="https://arxiv.org/abs/2312.11865">LLMs play sc2</a>. My goal was to evaluate it on the <a href=https://sites.google.com/view/complex-urban-dataset>KAIST Urban Dataset</a> as well as my lab's (at University of Washington) suburban rover dataset. I used <a href=https://github.com/tsyxyz/kaist2bag>kaist2bag</a> to convert the separate sensor bag files to one bag.
+      <a href="https://github.com/rpng/MINS">MINS</a> is a multisensor sensor fusion slam system capable of fusing IMU, camera, LiDAR, GPS, and wheel sensors. My goal was to evaluate it on the <a href="https://sites.google.com/view/complex-urban-dataset">KAIST Urban Dataset</a> as well as my lab's (at University of Washington) suburban rover dataset. I used <a href="https://github.com/tsyxyz/kaist2bag">kaist2bag</a> to convert the separate sensor bag files to one bag.
   </div>
 
   <div class="card">
@@ -33,7 +32,7 @@ math: true
       MINS already had evaluation code that worked with minimal tuning and setup. Absolute Trajectory Error, a formulation of which can be found below, was used to evaluate the SLAM trajectories. I achieved a 9.12m ATE on an 11km KAIST Urban Trajectory and a 1.1m ATE on our 1km Lab rover trajectory.
 
       $$
-      ATE_RMSE = \sqrt{ \frac{1}{N} \sum_{i=1}^{N} \left\| P_{i}^{est} - P_{i}^{gt} \right\|^2 }
+      ATE_{RMSE} = \sqrt{ \frac{1}{N} \sum_{i=1}^{N} \left\| P_{i}^{est} - P_{i}^{gt} \right\|^2 }
       $$
 
 
