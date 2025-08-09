@@ -55,7 +55,7 @@ math: true
         </div>
 
         <div style="text-align: center;">
-          <img src="/images/mins/rover0824.gif" width="600"/>
+          <img src="/images/mins/urban28_gt_trajectory.png" width="600"/>
           <p><em>Complete Ground Truth Trajectory of KAIST Urban28</em></p>
         </div>
       </div>
