@@ -23,7 +23,7 @@ math: true
         <li>Transformation matrices between sensors T_imu_camera, T_imu-wheel, T_imu_lidar</li>
         <li>Camera intrinsics, resolution</li>
         <li>IMU acceleration and bias, gyroscope acceleration and bias </li>
-        <li>Wheel intrinsics (raidus, wheel base)</li>
+        <li>Wheel intrinsics (radius, wheel base)</li>
       </ul>
       Additionally, I had to download the segway_msgs and gnss_comm ROS message packages to enable our system to correctly read messages from our rover wheel encoder and gps.
   </div>
@@ -32,7 +32,10 @@ math: true
     <h2>3. Evaluation</h2>
       MINS already had evaluation code that worked with minimal tuning and setup. Absolute Trajectory Error, a formulation of which can be found below, was used to evaluate the SLAM trajectories. I achieved a 9.12m ATE on an 11km KAIST Urban Trajectory and a 1.1m ATE on our 1km Lab rover trajectory.
 
-      $$ATE_RMSE = sqrt( (1/N) * sum_{i=1 to N} || S * P_{i}^{est} - P_{i}^{gt} ||^2 )$$
+      $$
+      \text{ATE\_RMSE} = \sqrt{ \frac{1}{N} \sum_{i=1}^{N} \left\| S \cdot P_{i}^{est} - P_{i}^{gt} \right\|^2 }
+      $$
+
 
       <div style="display: flex; justify-content: center; gap: 20px;">
         <div style="text-align: center;">
