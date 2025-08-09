@@ -40,7 +40,7 @@ math: true
       I did an 80-10-10 train-val-test split on my image-caption pairs. I then trained the BLIPConditionalGeneration model with the HuggingFace Trainer. This model was trained with a cross-entropy loss that compares a sequence of tokens against that same sequence shifted forward.
 
       <div align="center">
-        <img src="/images/ictam/TrainingLossCurve.png" width="400"/>
+        <img src="/images/ictam/TrainingLossCurve.png" width="600"/>
         <p><em>Train-Validation Loss Curves (validation only starts after the first epoch)</em></p>
       </div>
   </div>
