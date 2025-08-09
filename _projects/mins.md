@@ -48,5 +48,16 @@ math: true
         </div>
       </div>
 
+      <div style="display: flex; justify-content: center; gap: 20px;">
+        <div style="text-align: center;">
+          <img src="/images/mins/urban28_complete_trajectory.png" width="600"/>
+          <p><em>Complete MINS Trajectory of KAIST Urban28</em></p>
+        </div>
+
+        <div style="text-align: center;">
+          <img src="/images/mins/rover0824.gif" width="600"/>
+          <p><em>Complete Ground Truth Trajectory of KAIST Urban28</em></p>
+        </div>
+      </div>
   </div>
 </div>
