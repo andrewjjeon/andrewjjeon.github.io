@@ -44,7 +44,7 @@ math: true
         </div>
         <div style="text-align: center;">
           <img src="/images/3dvlmaps/seg_sofa.png" width="400"/>
-          <p><em>Semantically Embedding Sofa</em></p>
+          <p><em>Semantically Embedded Sofa</em></p>
         </div>
       </div>
   </div>
