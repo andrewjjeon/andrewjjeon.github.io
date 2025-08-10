@@ -46,13 +46,13 @@ math: true
 
     <div style="text-align:center">
       <img src="/images/lowrank/mse_improvement.png" width="250" style="vertical-align: top; margin-right:20px;" />
-      <img src="/images/lowrank/roc_curves.png" width="400" style="vertical-align: top; margin-right:20px;" />
+      <img src="/images/lowrank/roc_curves.png" width="600" style="vertical-align: top; margin-right:20px;" />
       <p><em>Low Rank Model Spike Prediction Performance</em></p>
     </div>
 
 
     <div align="center">
-      <img src="/images/lowrank/lowrank_reg.png" width="600" style="vertical-align: top;" />
+      <img src="/images/lowrank/lowrank_reg.png" width="800" style="vertical-align: top;" />
       <p><em>A comparison of the spike predictions of the closed-form, full-rank model, and low-rank model.</em></p>
     </div>
   </div>
