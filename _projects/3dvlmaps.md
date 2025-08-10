@@ -24,7 +24,7 @@ math: true
         <p><em>Voxelization Algorithm</em></p>
       </div>
       <div align="center">
-        <img src="/images/3dvlmaps/3dvlmaps_block.jpg" width="1000" />
+        <img src="/images/3dvlmaps/3dvlmaps_block.jpg" width="1200" />
         <p><em>3DVLMaps Approach</em></p>
       </div>
 
