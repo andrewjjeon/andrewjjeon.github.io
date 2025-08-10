@@ -21,12 +21,12 @@ math: true
       This project used experimental data where a region of a mice brain was photostimulated with a laser. Specifically, patterns of neurons were photostimulated and the rest of region neuron's response (spikes) to that stimulation was recorded.<br>
 
       <div align="center">
-        <img src="/images/lowrank/spikes_detected.png" width="400" />
+        <img src="/images/lowrank/spikes_detected.png" width="600" />
         <p><em>Spikes were determined as signal responses that were 6x greater than the baseline noise of the signal.</em></p>
       </div>
 
       <div align="center">
-        <img src="/images/lowrank/photostim_neurons_map.png" width="400" />
+        <img src="/images/lowrank/photostim_neurons_map.png" width="600" />
         <p><em>Here you can see an example pattern of neurons being photostimulated by the neuron.</em></p>
       </div>
       The project’s active learning technique takes advantage of the low-rank structure of the neural population dynamics to determine the most informative photostimulation patterns. It uses SVD to create low rank autoregressive models that predict neural activity (spikes).
@@ -46,13 +46,13 @@ math: true
 
     <div style="text-align:center">
       <img src="/images/lowrank/mse_improvement.png" width="250" style="vertical-align: top; margin-right:20px;" />
-      <img src="/images/lowrank/roc_curves.png" width="250" style="vertical-align: top; margin-right:20px;" />
+      <img src="/images/lowrank/roc_curves.png" width="400" style="vertical-align: top; margin-right:20px;" />
       <p><em>Low Rank Model Spike Prediction Performance</em></p>
     </div>
 
 
     <div align="center">
-      <img src="/images/lowrank/lowrank_reg.png" width="500" style="vertical-align: top;" />
+      <img src="/images/lowrank/lowrank_reg.png" width="600" style="vertical-align: top;" />
       <p><em>A comparison of the spike predictions of the closed-form, full-rank model, and low-rank model.</em></p>
     </div>
   </div>
