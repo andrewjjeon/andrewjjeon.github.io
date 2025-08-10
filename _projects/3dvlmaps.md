@@ -24,7 +24,7 @@ math: true
         <p><em>Voxelization Algorithm</em></p>
       </div>
       <div align="center">
-        <img src="/images/3dvlmaps/3dvlmaps_block.jpg" width="600" />
+        <img src="/images/3dvlmaps/3dvlmaps_block.jpg" width="1000" />
         <p><em>3DVLMaps Approach</em></p>
       </div>
 
@@ -49,58 +49,3 @@ math: true
       </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-<p>
-  VLMaps 
-  
-  Further details can be found in 
-</p>
-
-<p>
-  
-
-</p>
-
-<div style="text-align: center;">
-  <img src="/images/3dvlmaps_block.jpg" alt="Block Diagram" style="max-width: 100%; height: auto;">
-  <p>Block diagram of 3DVLMaps.</p>
-</div>
-
-
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="/images/segresult.png" alt="House 3D Segmentation Result" style="max-width: 49%; height: auto;">
-    <img src="/images/3dvlmaps_key.png" alt="House 3D Segmentation Key" style="max-width: 49%; height: auto;">
-  </div>
-  <p>3D segmentation demonstration of household scene.</p>
-</div>
-
-
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="/images/realsofa.png" alt="Real Sofa" style="max-width: 49%; height: auto;">
-    <img src="/images/seg_sofa.png" alt="Segmented Sofa" style="max-width: 49%; height: auto;">
-  </div>
-  <p>3D segmentation demonstration of sofa, comparison with real world point cloud</p>
-</div>
-
-
-<div style="text-align: center;">
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="/images/table.png" alt="Table" style="max-width: 49%; height: auto;">
-    <img src="/images/tableseg.png" alt="Segmented Table" style="max-width: 49%; height: auto;">
-  </div>
-  <p>3D segmentation demonstration of Table, comparison with real world point cloud</p>
-</div>
-
-<p>
-  , the table had an accuracy of 0.832
-</p>
