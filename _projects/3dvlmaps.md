@@ -4,7 +4,7 @@ title: "3D Open Vocabulary Semantic Segmentation for Robot Navigation"
 collection: projects
 category: projects
 image: /images/3dvlmaps/segresult.png
-order: 2
+order: 3
 math: true
 ---
 

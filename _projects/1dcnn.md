@@ -4,7 +4,7 @@ title: "1DCNN for Time-Series Anomaly Detection"
 collection: projects
 category: projects
 image: /images/1dcnn/1dcnn.png
-order: 7
+order: 1
 math: true
 ---
 <div style="text-align: center;">

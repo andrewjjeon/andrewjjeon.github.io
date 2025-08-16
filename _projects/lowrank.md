@@ -4,7 +4,7 @@ title: "Regularization, Hyperparameter Tuning on Low Rank Autoregressive Models"
 collection: projects
 category: projects
 image: /images/lowrank/lowrank_reg.png
-order: 5
+order: 4
 math: true
 ---
 

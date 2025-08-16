@@ -4,7 +4,7 @@ title: "Evaluating Foundation Model Robot Pose Estimation with Synthetic Data Ge
 collection: projects
 category: projects
 image: /images/fpose/FposePanda100.gif
-order: 1
+order: 2
 math: true
 ---
 

@@ -4,7 +4,7 @@ title: "Evaluating Sensor Fusion SLAM"
 collection: projects
 category: projects
 image: /images/mins/MINSurban28.gif
-order: 3
+order: 7
 math: true
 ---
 
