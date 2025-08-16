@@ -7,5 +7,6 @@ image: /images/1dcnn/1dcnn.png
 order: 7
 math: true
 ---
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTsGl1oSbLI59f85dVCUfECX30Qp3lbb3xpvL5YpQXFR3Ghv-2R7iO9XeNok6xYAeOy-UdgzolCwMM4/pubembed?start=true&loop=false&delayms=5000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div style="text-align: center;">
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTsGl1oSbLI59f85dVCUfECX30Qp3lbb3xpvL5YpQXFR3Ghv-2R7iO9XeNok6xYAeOy-UdgzolCwMM4/pubembed?start=false&loop=false&delayms=10000" frameborder="0" width="1920" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
