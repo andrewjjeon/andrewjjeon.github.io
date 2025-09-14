@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am passionate about and have a firm foundation in Machine Learning and Computer Vision. Much of my experience is in applying CVML to defense and autonomous applications.
+I am passionate about and have a firm foundation in Machine Learning, Computer Vision, and Signal Processing. Much of my experience is in applying these technologies to enhance defense and autonomous capabilities.
 
 Example research papers that have inspired me: [CLIP](https://arxiv.org/abs/2103.00020), [VLMaps](https://arxiv.org/pdf/2210.05714), [CICERO](https://www.science.org/doi/10.1126/science.ade9097), [LLMs play Starcraft 2](https://arxiv.org/abs/2312.11865), [FoundationPose](https://nvlabs.github.io/FoundationPose/), [AlphaStar](https://arxiv.org/pdf/2308.03526), [MSCRED](https://arxiv.org/abs/1811.08055)
 
