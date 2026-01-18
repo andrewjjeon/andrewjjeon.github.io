@@ -37,7 +37,7 @@ math: true
 
   <div class="card">
     <h2>3. Training and Validation</h2>
-      I did an 80-10-10 train-val-test split on my image-caption pairs. I then trained the BLIPConditionalGeneration model with the HuggingFace Trainer. This model was trained with a cross-entropy loss that compares a sequence of tokens against that same sequence shifted forward.
+      I did an 80-10-10 train-val-test split on my image-caption pairs. I then trained the BLIPConditionalGeneration model with the HuggingFace Trainer. This model was trained with an image-conditioned autoregressive cross-entropy loss. What this means is that the model has a "vocabulary" of a large amount of tokens (30,000 for example) and after seeing an image and the tokens before, it assigns a probability distribution across all tokens in its vocab on what is most likely to be the next token in the sequence. During training the loss then compares the probability assigned to the "correct" token and optimizes as it wants the probability to be as close to 100% as possible.
 
       <div align="center">
         <img src="/images/ictam/TrainingLossCurve.png" width="600"/>
