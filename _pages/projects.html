@@ -50,7 +50,7 @@ category: projects
 <div class="projects-grid">
   {% assign sorted_projects = site.projects | sort: "order" %}
   {% for project in sorted_projects %}
-    <a href="{{ project.url | relative_url }}" class="project-card">
+    <a href="{% if project.external_url %}{{ project.external_url }}{% else %}{{ project.url | relative_url }}{% endif %}" class="project-card" target="_blank">
       <h3>{{ project.title }}</h3>
       {% if project.image %}
         <img src="{{ project.image }}" alt="{{ project.title }} screenshot" />
