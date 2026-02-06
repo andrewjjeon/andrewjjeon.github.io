@@ -12,7 +12,7 @@ math: true
   <div class="card">
     <h1>Evaluating Multisensor-aided Inertial Navigation System (MINS)</h1>
     <h2>1. Introduction</h2>
-      <a href="https://github.com/rpng/MINS">MINS</a> is a multisensor sensor fusion slam system capable of fusing IMU, camera, LiDAR, GPS, and wheel sensors. My goal was to evaluate it on the <a href="https://sites.google.com/view/complex-urban-dataset">KAIST Urban Dataset</a> as well as my lab's (at University of Washington) suburban rover dataset. I used <a href="https://github.com/tsyxyz/kaist2bag">kaist2bag</a> to convert the separate sensor bag files to one bag.
+      <a href="https://github.com/rpng/MINS">MINS</a> is a Visual Inertial Odometry (VIO) slam system capable of fusing IMU, camera, LiDAR, GPS, and wheel sensors. SLAM (Simultaenous Localization and Mapping) uses Extended Kalman Filters which are Kalman Filters that uses Jacobians to linearize the nonlinear motion around the current estimate in order to use the same Kalman Filter math. A kalman filter roughly makes a guess about where something is, and then corrects it with a sensor reading. In the case of MINs this initial guess is made using the IMU readings and the camera (visual) sensor readings as well as any additional sensors (Lidar, Wheel Encoder) are used to correct this initial guess. My goal was to evaluate MINS on the <a href="https://sites.google.com/view/complex-urban-dataset">KAIST Urban Dataset</a> as well as my lab's (at University of Washington) suburban rover dataset. I used <a href="https://github.com/tsyxyz/kaist2bag">kaist2bag</a> to convert the separate sensor bag files to one bag.
   </div>
 
   <div class="card">
