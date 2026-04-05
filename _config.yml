@@ -24,11 +24,11 @@ minimal_mistakes_skin: dark
 author:
   # Biographic information
   avatar           : "headshot.jpg"
-  name             : "Andrew Jeon"
+  name             : "Andrew J Jeon"
   pronouns         : "he/him" 
-  bio              : "MSEE @ UW, Machine Learning, Multimodal Perception, Autonomy"
-  location         : "Seattle, WA"
-  employer         : "University of Washington"
+  bio              : "Machine Learning Engineer @ AeroVironment, MSEE @ UW, BSEE @ UIUC, Machine Learning, Computer Vision, Autonomy"
+  location         : "Centreville, VA"
+  employer         : "AeroVironment"
   uri              : # URL
   email            : "andrewjjeon@gmail.com" 
 
