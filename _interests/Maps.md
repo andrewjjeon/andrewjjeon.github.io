@@ -18,9 +18,3 @@ math: true
   Three regions primarily drive the world's economy, those being North America, Europe and East Asia. The USA is the world's largest economy and makes up the majority of North America's GDP. Europe is much more segmented with several nations being significant contributors including, Germany, UK, and France. East Asia's GDP distribution is simpler, with China, the world's 2nd largest economy, and Japan, the worlds 3rd largest economy (fluctuates between Germany and Japan), dominating output.
   </p>
 </div>
-
-<div style="text-align: center;">
-  <img src="/images/megaregions.png" alt="Megaregions" style="width: 100%; max-width: 1000px;">
-  <p>Emerging Megaregions in USA</p>
-</div>
-
