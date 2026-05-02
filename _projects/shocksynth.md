@@ -4,7 +4,7 @@ title: "Ensemble Modeling for Signal Generation"
 collection: projects
 category: projects
 image: /images/shock_synth/shock_signal.png
-order: 1
+order: 9
 math: true
 ---
 <div style="text-align: center;">
