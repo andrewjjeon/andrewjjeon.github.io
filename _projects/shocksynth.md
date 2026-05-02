@@ -3,8 +3,8 @@ layout: page
 title: "Ensemble Modeling for Signal Generation"
 collection: projects
 category: projects
-image: /images/shock_synth/shock_signal.png
-order: 9
+image: /images/shocksynth/shock_signal.png
+order: 1
 math: true
 ---
 <div style="text-align: center;">
