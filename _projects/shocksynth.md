@@ -11,7 +11,7 @@ math: true
 
   <a href="https://arxiv.org/abs/2603.03229" target="_blank">
     <img 
-      src="/assets/paper_preview.png" 
+      src="/shocksynth/shock_signal.png" 
       alt="Paper Preview"
       style="width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   </a>
