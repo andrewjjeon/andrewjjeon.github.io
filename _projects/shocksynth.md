@@ -7,13 +7,20 @@ image: /images/shocksynth/shock_signal.png
 order: 1
 math: true
 ---
-<div style="text-align: center;">
+<div style="text-align:center;">
 
-<p style="text-align:center;">
   <a href="https://arxiv.org/abs/2603.03229" target="_blank">
-  Read the Paper on arXiv
+    <img 
+      src="/assets/paper_preview.png" 
+      alt="Paper Preview"
+      style="width: 400px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   </a>
-</p>
+
+  <p style="margin-top: 8px; font-size: 14px; color: gray;">
+    Click to view on arXiv
+  </p>
+
+</div>
 
 
 <div style="text-align: center; margin-top: 20px;">
@@ -23,7 +30,4 @@ math: true
     height="1000"
     style="border: none;">
   </iframe>
-</div>
-
-
 </div>
