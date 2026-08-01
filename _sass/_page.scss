@@ -52,10 +52,11 @@
 }
 
 .page__content {
-  background: #dceffc;
+  background: #171717;
   border: 1px solid #b8d8f3;
   border-radius: 8px;
   padding: 1rem 1.25rem;
+  color: 1px solid #b8d8f3;
 
   h2 {
     padding-bottom: 0.5em;
@@ -80,11 +81,11 @@
   }
 
   a {
-    color: #4b8ec2;
+    color: #b8d8f3;
     text-decoration: underline;
 
     &:hover {
-      color: #3b76a6;
+      color: #b8d8f3;
       text-decoration: underline;
 
       img {
