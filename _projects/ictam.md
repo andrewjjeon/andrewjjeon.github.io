@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Image-Captioning Tactical Advisor Model (ICTAM)"
+title: "JANGGOON Strategy AI Model"
 collection: projects
 category: projects
 image: /images/ictam/blip-finetuned-model_image_caption.png
