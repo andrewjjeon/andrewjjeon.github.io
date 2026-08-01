@@ -1,0 +1,57 @@
+/* Dark theme overrides */
+
+body,
+.page,
+.page__content,
+.page__inner-wrap,
+.masthead,
+.sidebar,
+.footer,
+.archive__item,
+.list__item,
+.toc,
+.nav__list,
+.author__urls-wrapper,
+.page__meta,
+.page__title,
+.page__lead,
+.page__hero,
+.page__hero--overlay {
+  background-color: #171717;
+  color: #f3f3f3;
+}
+
+body {
+  color-scheme: dark;
+}
+
+.page__title,
+.page__lead,
+.archive__item-title,
+.archive__item-excerpt,
+.sidebar p,
+.sidebar li,
+.footer,
+.footer a,
+.masthead__inner-wrap,
+.masthead a,
+.nav__list a {
+  color: #f3f3f3;
+}
+
+a {
+  color: #7ec8ff;
+}
+
+a:hover,
+a:visited {
+  color: #9ed1ff;
+}
+
+code,
+pre,
+blockquote {
+  background-color: #232323;
+  color: #f3f3f3;
+  border-color: #4a4a4a;
+}

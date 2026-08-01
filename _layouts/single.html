@@ -44,8 +44,10 @@ layout: default
         </header>
       {% endunless %}
 
-      <section class="page__content" itemprop="text">
-        {{ content }}
+      <section class="page__content" itemprop="text" style="background: #171717; border: 1px solid #4b8ec2; border-radius: 8px; padding: 1rem 1.25rem;">
+        <div style="color: #b8d8f3;">
+          {{ content }}
+        </div>
 
         {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
