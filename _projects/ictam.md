@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "JANGGOON Strategy AI Model"
+title: "JANGGOON"
 collection: projects
 category: projects
 image: /images/ictam/blip-finetuned-model_image_caption.png
